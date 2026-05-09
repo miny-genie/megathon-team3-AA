@@ -220,31 +220,40 @@ if st.session_state["phase"] == "dashboard":
     m5.metric("중요도 8+", sum(1 for a in articles if a.get("importance",0)>=8))
     m6.metric("평균 매칭도", f"{np.mean([a.get('role_keyword_match_score',0) for a in articles]):.2f}" if articles else "0")
 
-    # Insight Summary - 종합 분석 텍스트
+    # Insight Summary - 실제 데이터 기반 종합 분석
     st.markdown('<div class="section-title">INSIGHT SUMMARY</div>', unsafe_allow_html=True)
     if articles:
-        # 종합 인사이트 생성 (분석 결과 집계 기반)
         pos_count = sum(1 for a in articles if a.get("sentiment") == "positive")
         neg_count = sum(1 for a in articles if a.get("sentiment") == "negative")
-        top_opps = Counter(a.get("opportunity_type","other") for a in articles[:10]).most_common(3)
-        top_sources = Counter(a.get("source_name","") for a in articles[:10]).most_common(2)
+        neu_count = len(articles) - pos_count - neg_count
+        top_opps = Counter(a.get("opportunity_type","other") for a in articles[:15]).most_common(3)
+        top_sources = Counter(a.get("source_name","") for a in articles).most_common(3)
         high_imp = [a for a in articles if a.get("importance",0) >= 7]
+        avg_score = np.mean([a.get("final_score_100",0) for a in articles[:20]]) if articles else 0
+        top_keywords = Counter()
+        for a in articles[:20]:
+            for kw in st.session_state.get("search_keywords", []):
+                if kw.lower() in a.get("title","").lower():
+                    top_keywords[kw] += 1
+        hot_kws = top_keywords.most_common(3)
 
-        opp_labels = {"sales_opportunity":"영업 기회","lead_generation":"신규 리드","customer_signal":"고객 신호","proposal_evidence":"규제/정책 변화","competitive_intelligence":"경쟁사 동향","market_trend":"기술 트렌드","security_risk":"보안 리스크","cloud_migration":"클라우드 전환","genai_opportunity":"생성형 AI"}
+        opp_labels = {"sales_opportunity":"영업 기회","lead_generation":"신규 리드/투자 신호","customer_signal":"고객 IT 투자 신호","proposal_evidence":"규제/정책 변화","competitive_intelligence":"경쟁사 동향","competitor_signal":"경쟁사 수주/MOU","market_trend":"기술 트렌드","security_risk":"보안 리스크/장애","cloud_migration":"클라우드 전환","genai_opportunity":"생성형 AI 기회","other":"기타"}
 
-        insight_parts = []
-        insight_parts.append(f"총 {len(articles)}건의 기사를 분석한 결과, 상위 기회 유형은 **{', '.join(opp_labels.get(o[0],o[0]) for o in top_opps)}** 순입니다.")
-        if neg_count > pos_count:
-            insight_parts.append(f"부정 기사({neg_count}건)가 긍정({pos_count}건)보다 많아 리스크 대응 관점의 선제적 접근이 필요합니다.")
-        elif pos_count > neg_count:
-            insight_parts.append(f"긍정 기사({pos_count}건)가 우세하여 시장 확장 기회를 적극 활용할 시점입니다.")
-        if high_imp:
-            insight_parts.append(f"중요도 7 이상 기사 {len(high_imp)}건 중 주요 매체는 {', '.join(s[0] for s in top_sources)}입니다.")
+        # 실제 분석 텍스트 구성
+        lines = []
+        lines.append(f"<b>[분석 범위]</b> {len(articles)}건 기사 분석 완료. 평균 임팩트 스코어 {avg_score:.1f}점. 중요도 7+ 기사 {len(high_imp)}건 감지.")
+        if hot_kws:
+            lines.append(f"<b>[핵심 키워드]</b> 가장 많이 언급된 키워드: {', '.join(f'{k}({v}건)' for k,v in hot_kws)}.")
+        lines.append(f"<b>[기회 유형]</b> 상위 기회: {', '.join(f'{opp_labels.get(o[0],o[0])}({o[1]}건)' for o in top_opps)}.")
+        lines.append(f"<b>[여론 동향]</b> 긍정 {pos_count}건 / 중립 {neu_count}건 / 부정 {neg_count}건. {'부정 기사가 많아 리스크 대응 우선.' if neg_count > pos_count else '긍정 우세로 시장 확장 기회 활용 가능.'}")
+        lines.append(f"<b>[매체 분포]</b> 주요 보도: {', '.join(f'{s[0]}({s[1]}건)' for s in top_sources)}.")
+        if articles[0].get("why_it_matters"):
+            lines.append(f"<b>[최우선 기사 시사점]</b> {articles[0]['why_it_matters']}")
         if articles[0].get("suggested_action"):
-            insight_parts.append(f"**권장 액션:** {articles[0]['suggested_action']}")
+            lines.append(f"<b>[권장 액션]</b> {articles[0]['suggested_action']}")
 
         st.markdown(f"""<div style="background:#fff; border:1px solid #e1e4e8; border-left:4px solid #1a73e8; border-radius:4px; padding:16px; margin-bottom:16px;">
-<div style="font-size:0.85rem; line-height:1.7; color:#333;">{' '.join(insight_parts)}</div>
+<div style="font-size:0.84rem; line-height:1.8; color:#333;">{'<br>'.join(lines)}</div>
 </div>""", unsafe_allow_html=True)
 
     # Top 5 Priority News - Card Style (참고 이미지 기반)
@@ -400,8 +409,6 @@ if st.session_state["phase"] == "dashboard":
                 st.rerun()
 
         draft = st.text_area("draft", st.session_state["draft_text"], height=300, key="draft_v_plus", label_visibility="collapsed")
-        st.session_state["draft_text"] = draft
-        draft = st.text_area("초안 편집", st.session_state["draft_text"], height=350, key="draft_v_plus", label_visibility="collapsed")
         st.session_state["draft_text"] = draft
 
     # Action toolbar
