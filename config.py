@@ -19,7 +19,7 @@ BEDROCK_EMBEDDING_MODEL_ID = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.tit
 S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME", "mzc-sales-radar-bucket")
 DYNAMODB_TABLE_NAME = os.getenv("DYNAMODB_TABLE_NAME", "mzc-sales-radar")
 # true이면 S3/DynamoDB 사용, false이면 로컬 파일 fallback
-USE_AWS_STORAGE = os.getenv("USE_AWS_STORAGE", "false").lower() == "true"
+USE_AWS_STORAGE = os.getenv("USE_AWS_STORAGE", "true").lower() == "true"
 
 # ─── 언론사 메타데이터 ───
 # 이유: 5개 언론사만 대상으로 하며, site 제한 RSS로 정확도 확보
