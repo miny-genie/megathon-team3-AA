@@ -85,7 +85,7 @@ if st.session_state["phase"] == "landing":
         st.warning("현재 MVP에서는 영업과 프리세일즈 워크플로우만 실행됩니다.")
 
     if st.button("분석 시작", type="primary", disabled=not ROLES[persona]["supported"]):
-        kws = [k.strip() for k in kw_input.split(",") if k.strip()] if kw_input else DEFAULT_KEYWORDS[:4]
+        kws = [k.strip() for k in kw_input.split(",") if k.strip()] if kw_input else DEFAULT_KEYWORDS
         st.session_state.update({
             "selected_role": persona,
             "role_key": ROLES[persona]["target_role"],
