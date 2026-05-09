@@ -239,6 +239,12 @@ if st.session_state["phase"] == "dashboard":
 
         opp_labels = {"sales_opportunity":"영업 기회","lead_generation":"신규 리드/투자 신호","customer_signal":"고객 IT 투자 신호","proposal_evidence":"규제/정책 변화","competitive_intelligence":"경쟁사 동향","competitor_signal":"경쟁사 수주/MOU","market_trend":"기술 트렌드","security_risk":"보안 리스크/장애","cloud_migration":"클라우드 전환","genai_opportunity":"생성형 AI 기회","other":"기타"}
 
+        # 한 줄 요약
+        top_opp_label = opp_labels.get(top_opps[0][0], "기타") if top_opps else "기타"
+        sentiment_word = "부정 리스크 우세" if neg_count > pos_count else ("긍정 신호 우세" if pos_count > neg_count else "중립 혼재")
+        one_liner = f"{len(articles)}건 분석 결과, '{top_opp_label}' 유형이 가장 많고 여론은 {sentiment_word}입니다. 평균 임팩트 {avg_score:.0f}점."
+        st.markdown(f"""<div style="font-size:0.95rem; font-weight:600; color:#1a73e8; margin-bottom:8px;">{one_liner}</div>""", unsafe_allow_html=True)
+
         # 실제 분석 텍스트 구성
         lines = []
         lines.append(f"<b>[분석 범위]</b> {len(articles)}건 기사 분석 완료. 평균 임팩트 스코어 {avg_score:.1f}점. 중요도 7+ 기사 {len(high_imp)}건 감지.")
