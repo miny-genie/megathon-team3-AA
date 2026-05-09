@@ -130,3 +130,18 @@ def get_embedding(text: str) -> list[float]:
     except Exception as e:
         logger.error(f"Bedrock embedding 실패: {e}")
         raise
+
+
+
+def embed_texts(texts: list[str]) -> list[list[float]]:
+    """여러 텍스트를 순차 벡터화 (배치 헬퍼).
+    이유: 호출자가 for문 없이 한 번에 여러 텍스트를 임베딩할 수 있도록.
+    Titan Embed는 배치 API가 없으므로 순차 호출하되 인터페이스를 통일.
+    """
+    results = []
+    for text in texts:
+        try:
+            results.append(get_embedding(text))
+        except Exception:
+            results.append([0.0] * 1024)
+    return results

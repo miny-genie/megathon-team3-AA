@@ -48,8 +48,8 @@ def analyze_articles(articles: list[dict], role: str, purpose: str) -> list[dict
         return []
     
     analyzed = []
-    # 이유: 3개씩 배치로 분석 → API 호출 횟수 줄이면서 컨텍스트 유지
-    batch_size = 3
+    # 이유: 8개씩 배치로 분석 → API 호출 횟수 최소화 (30개 기사 = 4번 호출)
+    batch_size = 8
     
     for i in range(0, len(articles), batch_size):
         batch = articles[i:i + batch_size]
@@ -75,29 +75,16 @@ def _analyze_batch(articles: list[dict], role: str, purpose: str) -> list[dict]:
     """
     articles_text = ""
     for idx, a in enumerate(articles):
-        articles_text += f"\n[기사 {idx+1}]\n제목: {a['title']}\n언론사: {a['source_name']}\n요약: {a.get('snippet', '')[:200]}\n"
+        articles_text += f"\n[{idx+1}] {a['title']} | {a['source_name']} | {a.get('snippet', '')[:100]}\n"
     
-    prompt = f"""직군: {role}
-분석 목적: {purpose}
+    prompt = f"""직군: {role} | 목적: {purpose}
 
-아래 기사들을 메가존클라우드 {role} 관점에서 분석해주세요.
+기사 {len(articles)}건을 MZC 영업 관점에서 분석하세요.
 
 {articles_text}
 
-각 기사에 대해 아래 JSON 배열 형식으로 응답:
-[
-  {{
-    "importance": 1~10 (정수),
-    "sentiment": "positive" 또는 "neutral" 또는 "negative",
-    "opportunity_type": "sales_opportunity|lead_generation|proposal_evidence|competitive_intelligence|customer_signal|competitor_signal|market_trend|cloud_migration|genai_opportunity|security_risk|data_ai_opportunity|public_sector|partnership|other" 중 하나,
-    "relevance_to_mzc": 0.0~1.0,
-    "purpose_fit": 0.0~1.0,
-    "summary_ko": "한국어 2~3문장 요약",
-    "why_it_matters": "MZC 영업/프리세일즈에게 왜 중요한지 1~2문장",
-    "suggested_action": "추천 액션 1문장",
-    "target_role": "sales" 또는 "presales" 또는 "both"
-  }}
-]"""
+JSON 배열로 응답 (기사 순서대로):
+[{{"importance":1~10,"sentiment":"positive|neutral|negative","opportunity_type":"sales_opportunity|lead_generation|proposal_evidence|competitive_intelligence|customer_signal|competitor_signal|market_trend|cloud_migration|genai_opportunity|security_risk|other","relevance_to_mzc":0~1,"purpose_fit":0~1,"summary_ko":"2문장","why_it_matters":"1문장","suggested_action":"1문장","target_role":"sales|presales|both"}}]"""
 
     try:
         result = invoke_model_json(prompt, system=_SYSTEM_PROMPT, max_tokens=4096)

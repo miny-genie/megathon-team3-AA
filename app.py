@@ -153,10 +153,15 @@ if st.session_state["phase"] == "loading":
     max_cluster = max(opp_counts.values()) if opp_counts else 1
 
     for art in analyzed:
-        try:
-            art_vector = np.array(get_embedding(build_article_intent_text(art)), dtype=np.float32)
-        except Exception:
-            art_vector = np.zeros_like(user_vector)
+        # 이유: dedup 단계에서 이미 생성된 embedding 재사용 → Bedrock 호출 0회
+        if "embedding" in art and art["embedding"]:
+            art_vector = np.array(art["embedding"], dtype=np.float32)
+        else:
+            # fallback: embedding 없는 기사만 새로 호출
+            try:
+                art_vector = np.array(get_embedding(build_article_intent_text(art)), dtype=np.float32)
+            except Exception:
+                art_vector = np.zeros_like(user_vector)
 
         rk_score = calculate_role_keyword_match_score(user_vector, art_vector)
         art["role_keyword_match_score"] = rk_score
