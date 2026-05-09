@@ -220,13 +220,32 @@ if st.session_state["phase"] == "dashboard":
     m5.metric("중요도 8+", sum(1 for a in articles if a.get("importance",0)>=8))
     m6.metric("평균 매칭도", f"{np.mean([a.get('role_keyword_match_score',0) for a in articles]):.2f}" if articles else "0")
 
-    # Insight Summary
+    # Insight Summary - 종합 분석 텍스트
     st.markdown('<div class="section-title">INSIGHT SUMMARY</div>', unsafe_allow_html=True)
     if articles:
-        top = articles[0]
-        label = sentiment_ov.get("label", "") if sentiment_ov else ""
-        st.markdown(f"**Context:** 현재 시장은 '{label}' 상태이며, 주요 기회 유형은 '{top.get('opportunity_type','')}'입니다.")
-        st.markdown(f"**Recommended Action:** {top.get('suggested_action', '주요 기사를 확인하고 고객 접점을 준비하세요.')}")
+        # 종합 인사이트 생성 (분석 결과 집계 기반)
+        pos_count = sum(1 for a in articles if a.get("sentiment") == "positive")
+        neg_count = sum(1 for a in articles if a.get("sentiment") == "negative")
+        top_opps = Counter(a.get("opportunity_type","other") for a in articles[:10]).most_common(3)
+        top_sources = Counter(a.get("source_name","") for a in articles[:10]).most_common(2)
+        high_imp = [a for a in articles if a.get("importance",0) >= 7]
+
+        opp_labels = {"sales_opportunity":"영업 기회","lead_generation":"신규 리드","customer_signal":"고객 신호","proposal_evidence":"규제/정책 변화","competitive_intelligence":"경쟁사 동향","market_trend":"기술 트렌드","security_risk":"보안 리스크","cloud_migration":"클라우드 전환","genai_opportunity":"생성형 AI"}
+
+        insight_parts = []
+        insight_parts.append(f"총 {len(articles)}건의 기사를 분석한 결과, 상위 기회 유형은 **{', '.join(opp_labels.get(o[0],o[0]) for o in top_opps)}** 순입니다.")
+        if neg_count > pos_count:
+            insight_parts.append(f"부정 기사({neg_count}건)가 긍정({pos_count}건)보다 많아 리스크 대응 관점의 선제적 접근이 필요합니다.")
+        elif pos_count > neg_count:
+            insight_parts.append(f"긍정 기사({pos_count}건)가 우세하여 시장 확장 기회를 적극 활용할 시점입니다.")
+        if high_imp:
+            insight_parts.append(f"중요도 7 이상 기사 {len(high_imp)}건 중 주요 매체는 {', '.join(s[0] for s in top_sources)}입니다.")
+        if articles[0].get("suggested_action"):
+            insight_parts.append(f"**권장 액션:** {articles[0]['suggested_action']}")
+
+        st.markdown(f"""<div style="background:#fff; border:1px solid #e1e4e8; border-left:4px solid #1a73e8; border-radius:4px; padding:16px; margin-bottom:16px;">
+<div style="font-size:0.85rem; line-height:1.7; color:#333;">{' '.join(insight_parts)}</div>
+</div>""", unsafe_allow_html=True)
 
     # Top 5 Priority News - Card Style (참고 이미지 기반)
     st.markdown('<div class="section-title">실시간 분석 인사이트</div>', unsafe_allow_html=True)
@@ -288,26 +307,100 @@ if st.session_state["phase"] == "dashboard":
                 fig.update_layout(height=250, margin=dict(l=0,r=0,t=30,b=0))
                 st.plotly_chart(fig, use_container_width=True)
 
-    # ─── 4. SIDE-BY-SIDE EDITOR ───
+    # ─── 4. DOCUMENT EDITOR (목적별 초안 생성) ───
     st.markdown('<div class="section-title">DOCUMENT EDITOR</div>', unsafe_allow_html=True)
+
+    # 목적별 초안 설명
+    purpose_id = st.session_state["purpose_id"]
+    purpose_draft_info = {
+        "lead_generation": {"title": "콜드 메일 초안", "desc": "투자 유치/사업 확장 기사를 근거로 한 아웃바운드 메일 초안 생성", "icon": "OUTBOUND MAIL"},
+        "proposal_support": {"title": "제안서 섹션 초안", "desc": "규제 완화/시장 변화 기사를 근거로 한 도입 배경 및 명분 섹션 초안 생성", "icon": "PROPOSAL DRAFT"},
+        "competitive_intelligence": {"title": "경쟁 분석 보고서", "desc": "경쟁사 수주/파트너십 기사를 기반으로 한 경영진 보고용 경쟁 분석 초안", "icon": "COMPETITIVE REPORT"},
+        "custom_search": {"title": "종합 브리핑", "desc": "검색 키워드 기반 종합 분석 브리핑 초안", "icon": "BRIEFING"},
+    }
+    draft_info = purpose_draft_info.get(purpose_id, purpose_draft_info["custom_search"])
+
+    st.markdown(f"""<div style="background:#f0f7ff; border:1px solid #b8d4f0; border-radius:6px; padding:12px 16px; margin-bottom:12px;">
+<span style="background:#1a73e8; color:#fff; padding:2px 8px; border-radius:3px; font-size:0.7rem; font-weight:600;">{draft_info['icon']}</span>
+<span style="font-size:0.85rem; margin-left:8px; color:#333;">{draft_info['desc']}</span>
+</div>""", unsafe_allow_html=True)
+
     ed_left, ed_right = st.columns(2)
 
     with ed_left:
-        st.markdown("**참조 (V1) - 주요 기사 원문**")
-        ref_text = "\n\n---\n\n".join([f"[{a.get('source_name','')}] {a.get('title','')}\n{a.get('snippet','')[:300]}" for a in articles[:5]])
-        st.text_area("참조 텍스트", ref_text, height=350, key="ref_v1", label_visibility="collapsed")
+        st.markdown(f"""<div style="background:#fff; border:1px solid #e1e4e8; border-radius:6px; padding:16px;">
+<div style="font-size:0.75rem; font-weight:600; color:#666; margin-bottom:8px; text-transform:uppercase;">참조 자산 (V1) - 관련 기사 원문</div>
+</div>""", unsafe_allow_html=True)
+        ref_text = "\n\n---\n\n".join([f"[{a.get('source_name','')}] {a.get('title','')}\n{a.get('snippet','')[:250]}" for a in articles[:5]])
+        st.text_area("ref", ref_text, height=300, key="ref_v1", label_visibility="collapsed")
 
     with ed_right:
-        st.markdown("**초안 (V+) - AI 생성 브리핑**")
+        st.markdown(f"""<div style="background:#f6fef9; border:1px solid #34a853; border-radius:6px; padding:16px;">
+<div style="font-size:0.75rem; font-weight:600; color:#1e7e34; margin-bottom:8px; text-transform:uppercase;">AI 생성 초안 (V+) - {draft_info['title']}</div>
+</div>""", unsafe_allow_html=True)
+
         if "draft_text" not in st.session_state:
             st.session_state["draft_text"] = ""
-        if st.button("초안 생성", type="primary"):
+
+        if st.button(f"{draft_info['title']} 생성", type="primary", use_container_width=True):
             with st.spinner("Bedrock 초안 작성 중..."):
-                content = generate_briefing(st.session_state["selected_role"], st.session_state["purpose_id"], articles[:10])
-                st.session_state["draft_text"] = content
+                # 목적별 프롬프트 분기
+                from services.bedrock_client import invoke_model
+                top_art = articles[0] if articles else {}
+                if purpose_id == "lead_generation":
+                    prompt = f"""메가존클라우드 영업 담당자가 보낼 콜드 메일 초안을 작성하세요.
+
+근거 기사: {top_art.get('title','')}
+기사 요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+
+형식:
+- 제목: [고객사명] 투자 유치 축하 및 클라우드 인프라 확장 제안
+- 본문: 축하 인사 → 기사 언급 → 인프라 확장 시 MZC가 도울 수 있는 점 → 미팅 제안
+- 톤: 전문적이면서 친근하게
+- 한국어로 작성"""
+                elif purpose_id == "proposal_support":
+                    prompt = f"""메가존클라우드 프리세일즈가 제안서에 넣을 '도입 배경 및 명분' 섹션 초안을 작성하세요.
+
+근거 기사: {top_art.get('title','')}
+기사 요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+
+형식:
+- 섹션 제목: 도입 배경
+- 시장 환경 변화 (기사 근거)
+- 규제/정책 변화가 고객에게 미치는 영향
+- 클라우드 도입의 필요성과 기대효과
+- MZC 솔루션 연결 포인트
+- 한국어로 작성"""
+                elif purpose_id == "competitive_intelligence":
+                    prompt = f"""경영진에게 보고할 경쟁사 동향 분석 보고서 초안을 작성하세요.
+
+근거 기사: {top_art.get('title','')}
+기사 요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+
+형식:
+- 경쟁사 동향 요약
+- MZC에 미치는 영향
+- 차별화 포인트
+- Win-back 또는 방어 전략 제안
+- 한국어로 작성"""
+                else:
+                    prompt = f"""아래 기사를 기반으로 종합 브리핑 초안을 작성하세요.
+기사: {top_art.get('title','')}
+요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+한국어로 작성."""
+
+                try:
+                    draft = invoke_model(prompt, max_tokens=2000)
+                except Exception as e:
+                    draft = f"초안 생성 실패: {e}"
+
+                st.session_state["draft_text"] = draft
                 stats = {"total_collected":len(articles),"after_dedup":len(articles),"analyzed":len(articles),"high_importance":sum(1 for a in articles if a.get("importance",0)>=8),"avg_purpose_fit":0.7}
-                st.session_state["briefing_html"] = render_briefing_html(st.session_state["selected_role"], st.session_state["selected_purpose"], content, articles[:10], stats)
+                st.session_state["briefing_html"] = render_briefing_html(st.session_state["selected_role"], st.session_state["selected_purpose"], draft, articles[:10], stats)
                 st.rerun()
+
+        draft = st.text_area("draft", st.session_state["draft_text"], height=300, key="draft_v_plus", label_visibility="collapsed")
+        st.session_state["draft_text"] = draft
         draft = st.text_area("초안 편집", st.session_state["draft_text"], height=350, key="draft_v_plus", label_visibility="collapsed")
         st.session_state["draft_text"] = draft
 
