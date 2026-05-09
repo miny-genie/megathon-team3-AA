@@ -35,28 +35,13 @@ st.set_page_config(page_title="MZC Sales Radar", page_icon=None, layout="wide", 
 
 # ─── CSS ───
 st.markdown("""<style>
-[data-testid="stAppViewContainer"] { background: #fafbfc; }
-.block-container { padding-top: 1rem; }
-.sticky-bar { background:#fff; border-bottom:1px solid #e1e4e8; padding:10px 16px; margin:-1rem -1rem 1rem -1rem; }
-.metric-row { display:flex; gap:12px; margin:8px 0; }
-.metric-box { background:#fff; border:1px solid #e1e4e8; border-radius:4px; padding:10px 14px; flex:1; }
-.metric-box .val { font-size:1.4rem; font-weight:700; color:#24292f; }
-.metric-box .lbl { font-size:0.72rem; color:#656d76; text-transform:uppercase; letter-spacing:0.5px; }
-.type-badge { display:inline-block; padding:1px 6px; border-radius:3px; font-size:0.7rem; font-weight:600; margin-right:6px; }
-.badge-breaking { background:#fde8e8; color:#b91c1c; }
-.badge-policy { background:#dbeafe; color:#1e40af; }
-.badge-sales { background:#dcfce7; color:#166534; }
-.badge-proposal { background:#fef3c7; color:#92400e; }
-.badge-competitive { background:#f3e8ff; color:#6b21a8; }
-.badge-trend { background:#e0f2fe; color:#075985; }
-.badge-risk { background:#fee2e2; color:#991b1b; }
-.score-num { font-size:1.8rem; font-weight:800; color:#0969da; line-height:1; }
-.score-label { font-size:0.65rem; color:#656d76; text-transform:uppercase; }
-.chip { display:inline-block; border:1px solid #d0d7de; border-radius:3px; padding:2px 8px; margin:2px; font-size:0.78rem; cursor:pointer; background:#fff; }
-.chip-active { background:#ddf4ff; border-color:#54aeff; }
-.editor-left { border:1px solid #d0d7de; border-radius:4px; padding:12px; background:#fff; min-height:350px; }
-.editor-right { border:1px solid #1f883d; border-radius:4px; padding:12px; background:#f6fef9; min-height:350px; }
-.section-title { font-size:0.85rem; font-weight:600; color:#24292f; text-transform:uppercase; letter-spacing:0.5px; margin:16px 0 8px 0; border-bottom:1px solid #e1e4e8; padding-bottom:4px; }
+[data-testid="stAppViewContainer"] { background: #f5f7fa; }
+.block-container { padding-top: 1rem; max-width: 1200px; }
+.section-title { font-size:0.9rem; font-weight:700; color:#1a1a1a; margin:20px 0 12px 0; padding-bottom:6px; border-bottom:2px solid #e1e4e8; }
+.metric-box { background:#fff; border:1px solid #e1e4e8; border-radius:6px; padding:12px 16px; }
+.metric-box .val { font-size:1.5rem; font-weight:700; color:#1a73e8; }
+.metric-box .lbl { font-size:0.72rem; color:#5f6368; text-transform:uppercase; }
+[data-testid="stMetric"] { background:#fff; border:1px solid #e8eaed; border-radius:6px; padding:8px 12px; }
 </style>""", unsafe_allow_html=True)
 
 # ─── Session State Init ───
@@ -243,27 +228,38 @@ if st.session_state["phase"] == "dashboard":
         st.markdown(f"**Context:** 현재 시장은 '{label}' 상태이며, 주요 기회 유형은 '{top.get('opportunity_type','')}'입니다.")
         st.markdown(f"**Recommended Action:** {top.get('suggested_action', '주요 기사를 확인하고 고객 접점을 준비하세요.')}")
 
-    # Top 5 Priority News
-    st.markdown('<div class="section-title">TOP 5 PRIORITY NEWS</div>', unsafe_allow_html=True)
-    for rank, art in enumerate(articles[:5], 1):
-        left, right = st.columns([9, 1])
-        with left:
-            opp = art.get("opportunity_type", "other")
-            badge_map = {"sales_opportunity":"badge-sales","lead_generation":"badge-sales","customer_signal":"badge-sales","proposal_evidence":"badge-proposal","competitive_intelligence":"badge-competitive","competitor_signal":"badge-competitive","market_trend":"badge-trend","security_risk":"badge-risk"}
-            badge_cls = badge_map.get(opp, "badge-trend")
-            label_map = {"sales_opportunity":"SALES","lead_generation":"LEAD","customer_signal":"SIGNAL","proposal_evidence":"PROPOSAL","competitive_intelligence":"COMPETITIVE","competitor_signal":"COMPETITIVE","market_trend":"TREND","security_risk":"RISK"}
-            badge_lbl = label_map.get(opp, opp.upper()[:8])
-            st.markdown(f'<span class="type-badge {badge_cls}">{badge_lbl}</span> **{art.get("title","")}**', unsafe_allow_html=True)
-            st.caption(f'{art.get("source_name","")} | {art.get("published_at","")[:10]} | 감성: {art.get("sentiment","")} | 매칭: {art.get("role_keyword_match_score",0):.2f}')
-            with st.expander("상세"):
-                st.write(f'**요약:** {art.get("summary_ko", art.get("snippet","")[:200])}')
-                st.write(f'**Why:** {art.get("why_it_matters","")}')
-                st.write(f'**Action:** {art.get("suggested_action","")}')
-                st.write(f'**Score:** {art.get("score_reason","")}')
-                st.link_button("원문", art.get("url","#"))
-        with right:
-            st.markdown(f'<div class="score-label">SCORE</div><div class="score-num">{art.get("final_score_100",0)}</div>', unsafe_allow_html=True)
-        st.markdown("---")
+    # Top 5 Priority News - Card Style (참고 이미지 기반)
+    st.markdown('<div class="section-title">실시간 분석 인사이트</div>', unsafe_allow_html=True)
+    if articles:
+        cols = st.columns(2)
+        for rank, art in enumerate(articles[:4], 1):
+            with cols[(rank-1) % 2]:
+                opp = art.get("opportunity_type", "other")
+                label_map = {"sales_opportunity":"영업 기회","lead_generation":"신규 리드","customer_signal":"고객 신호","proposal_evidence":"규제/정책","competitive_intelligence":"경쟁사","competitor_signal":"경쟁사","market_trend":"기술 트렌드","security_risk":"보안 리스크","cloud_migration":"클라우드","genai_opportunity":"GenAI"}
+                type_label = label_map.get(opp, "기타")
+                score = art.get("final_score_100", 0)
+                source = art.get("source_name", "")
+                title = art.get("title", "")
+                reasoning = art.get("summary_ko", art.get("snippet","")[:150])
+                action = art.get("suggested_action", "")
+
+                st.markdown(f"""<div style="border:1px solid #e1e4e8; border-radius:8px; padding:16px; margin-bottom:12px; background:#fff;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+<div><span style="background:#e8f0fe; color:#1a73e8; padding:2px 8px; border-radius:3px; font-size:0.75rem; font-weight:600;">{source}</span>
+<span style="background:#f0f0f0; color:#333; padding:2px 8px; border-radius:3px; font-size:0.75rem; margin-left:4px;">{type_label}</span></div>
+<div style="text-align:right;"><span style="font-size:0.65rem; color:#666; text-transform:uppercase;">LEAD SCORE</span><br>
+<span style="font-size:1.6rem; font-weight:800; color:#1a73e8;">{score}</span></div>
+</div>
+<div style="font-size:0.95rem; font-weight:600; margin-bottom:8px; line-height:1.4;">"{title}"</div>
+<div style="background:#f8f9fa; border-radius:4px; padding:10px; margin-bottom:8px;">
+<div style="font-size:0.7rem; font-weight:600; color:#666; margin-bottom:4px;">AI 제안 논리 (REASONING)</div>
+<div style="font-size:0.82rem; color:#333; line-height:1.5;">{reasoning}</div>
+</div>
+<div style="display:flex; justify-content:space-between; font-size:0.75rem; color:#666;">
+<a href="{art.get('url','#')}" target="_blank" style="color:#1a73e8; text-decoration:none;">원문 기사</a>
+<span>감성: {art.get('sentiment','neutral')} | 매칭: {art.get('role_keyword_match_score',0):.2f}</span>
+</div>
+</div>""", unsafe_allow_html=True)
 
     # Charts
     st.markdown('<div class="section-title">TRENDS / SENTIMENT / SOURCE REACTION</div>', unsafe_allow_html=True)
@@ -284,8 +280,10 @@ if st.session_state["phase"] == "dashboard":
     with t3:
         if source_rx:
             rx_df = pd.DataFrame(source_rx)
-            if "source_name" in rx_df.columns:
-                fig = px.bar(rx_df, x="source_reaction_score", y="source_name", orientation="h", color="reaction_label",
+            if "source_name" in rx_df.columns and "source_reaction_score" in rx_df.columns:
+                # trend_analyzer returns 'label' not 'reaction_label'
+                color_col = "reaction_label" if "reaction_label" in rx_df.columns else "label"
+                fig = px.bar(rx_df, x="source_reaction_score", y="source_name", orientation="h", color=color_col,
                     color_discrete_map={"HOT":"#dc2626","HOT RISK":"#7f1d1d","WARM":"#ea580c","COLD":"#2563eb"}, title="Source Reaction")
                 fig.update_layout(height=250, margin=dict(l=0,r=0,t=30,b=0))
                 st.plotly_chart(fig, use_container_width=True)
