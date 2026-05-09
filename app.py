@@ -1,15 +1,11 @@
 """
-app.py - MZC Sales Radar (v6 - UI/UX 요구사항 반영)
-────────────────────────────────────────────────────
-4.1 Landing Page: 미니멀 진입 (페르소나 + 키워드 + 시작)
-4.2 Sticky Header: 접이식 키워드 튜닝 바
-4.3 Summary Dashboard: 인사이트 요약 + 유형별 기사 + 임팩트 스코어
-4.4 Side-by-Side Editor: 참조 원문(좌) + AI 초안(우)
+app.py - MZC Sales Radar (Production UI)
+─────────────────────────────────────────
+No emoji. No decorative landing. Dense, professional internal SaaS tool.
 """
 import sys, os
 from datetime import datetime
 from collections import Counter
-import math
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -17,6 +13,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import plotly.graph_objects as go
 
 from config import ROLES, PURPOSES, DEFAULT_KEYWORDS, WINDOW_MAP, NOISE_KEYWORDS
 from agents.keyword_planner import recommend_keywords
@@ -32,118 +29,104 @@ from services.scoring import (
     calculate_hotness_score, calculate_final_score, build_score_reason,
 )
 from services.trend_analyzer import extract_trend_keywords, calculate_sentiment_overview, calculate_source_reactions
-from services.bedrock_client import get_embedding, invoke_model
+from services.bedrock_client import get_embedding
 
-st.set_page_config(page_title="MZC Sales Radar", page_icon="📡", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="MZC Sales Radar", page_icon=None, layout="wide", initial_sidebar_state="collapsed")
 
-# ─── Custom CSS ───
+# ─── CSS ───
 st.markdown("""<style>
-.landing-container { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:70vh; }
-.landing-title { font-size:2.5rem; font-weight:700; color:#FF6B00; margin-bottom:0.2em; }
-.landing-subtitle { font-size:1.1rem; color:#666; margin-bottom:2em; }
-.sticky-header { background:#f8f9fa; border-bottom:1px solid #e0e0e0; padding:12px 20px; border-radius:8px; margin-bottom:1em; }
-.impact-score { font-size:2.8rem; font-weight:800; color:#FF4B4B; text-align:center; }
-.impact-label { font-size:0.7rem; color:#999; text-align:center; text-transform:uppercase; }
-.type-badge { display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:600; margin-right:4px; }
-.badge-breaking { background:#fee2e2; color:#dc2626; }
-.badge-policy { background:#dbeafe; color:#1d4ed8; }
-.badge-csp { background:#f3e8ff; color:#7c3aed; }
-.badge-lead { background:#dcfce7; color:#16a34a; }
-.badge-trend { background:#fef3c7; color:#d97706; }
-.editor-panel { border:1px solid #e0e0e0; border-radius:8px; padding:16px; min-height:400px; background:#fafafa; }
-.editor-panel-right { border:1px solid #4caf50; border-radius:8px; padding:16px; min-height:400px; background:#f0fdf4; }
+[data-testid="stAppViewContainer"] { background: #fafbfc; }
+.block-container { padding-top: 1rem; }
+.sticky-bar { background:#fff; border-bottom:1px solid #e1e4e8; padding:10px 16px; margin:-1rem -1rem 1rem -1rem; }
+.metric-row { display:flex; gap:12px; margin:8px 0; }
+.metric-box { background:#fff; border:1px solid #e1e4e8; border-radius:4px; padding:10px 14px; flex:1; }
+.metric-box .val { font-size:1.4rem; font-weight:700; color:#24292f; }
+.metric-box .lbl { font-size:0.72rem; color:#656d76; text-transform:uppercase; letter-spacing:0.5px; }
+.type-badge { display:inline-block; padding:1px 6px; border-radius:3px; font-size:0.7rem; font-weight:600; margin-right:6px; }
+.badge-breaking { background:#fde8e8; color:#b91c1c; }
+.badge-policy { background:#dbeafe; color:#1e40af; }
+.badge-sales { background:#dcfce7; color:#166534; }
+.badge-proposal { background:#fef3c7; color:#92400e; }
+.badge-competitive { background:#f3e8ff; color:#6b21a8; }
+.badge-trend { background:#e0f2fe; color:#075985; }
+.badge-risk { background:#fee2e2; color:#991b1b; }
+.score-num { font-size:1.8rem; font-weight:800; color:#0969da; line-height:1; }
+.score-label { font-size:0.65rem; color:#656d76; text-transform:uppercase; }
+.chip { display:inline-block; border:1px solid #d0d7de; border-radius:3px; padding:2px 8px; margin:2px; font-size:0.78rem; cursor:pointer; background:#fff; }
+.chip-active { background:#ddf4ff; border-color:#54aeff; }
+.editor-left { border:1px solid #d0d7de; border-radius:4px; padding:12px; background:#fff; min-height:350px; }
+.editor-right { border:1px solid #1f883d; border-radius:4px; padding:12px; background:#f6fef9; min-height:350px; }
+.section-title { font-size:0.85rem; font-weight:600; color:#24292f; text-transform:uppercase; letter-spacing:0.5px; margin:16px 0 8px 0; border-bottom:1px solid #e1e4e8; padding-bottom:4px; }
 </style>""", unsafe_allow_html=True)
 
-# ─── Session State ───
-if "phase" not in st.session_state:
-    st.session_state["phase"] = "landing"  # landing → dashboard
-if "keyword_pool" not in st.session_state:
-    st.session_state["keyword_pool"] = list(DEFAULT_KEYWORDS)
-if "search_keywords" not in st.session_state:
-    st.session_state["search_keywords"] = []
-if "header_expanded" not in st.session_state:
-    st.session_state["header_expanded"] = True
+# ─── Session State Init ───
+defaults = {"phase": "landing", "keyword_pool": list(DEFAULT_KEYWORDS), "search_keywords": [], "header_expanded": True, "alert_settings": {}}
+for k, v in defaults.items():
+    if k not in st.session_state:
+        st.session_state[k] = v
 
-
-# ═══════════════════════════════════════════════════
-# 4.1 Landing Page
-# ═══════════════════════════════════════════════════
+# ═══════════════════════════════════════
+# 1. LANDING PAGE
+# ═══════════════════════════════════════
 if st.session_state["phase"] == "landing":
-    st.markdown("<div class='landing-container'>", unsafe_allow_html=True)
-    st.markdown("<div class='landing-title'>📡 MZC Sales Radar</div>", unsafe_allow_html=True)
-    st.markdown("<div class='landing-subtitle'>CSA: 비즈니스 인텔리전스 에이전트 — 뉴스에서 영업 기회를 발견합니다</div>", unsafe_allow_html=True)
+    st.markdown("## MZC Sales Radar")
+    st.caption("메가존클라우드 영업 및 프리세일즈를 위한 뉴스 기반 영업 인텔리전스")
+    st.markdown("---")
 
-    col1, col2, col3 = st.columns([1, 2, 1])
+    col1, col2 = st.columns(2)
+    with col1:
+        persona = st.selectbox("직군 선택", list(ROLES.keys()), index=0)
+        purpose_sel = st.selectbox("분석 목적", list(PURPOSES.keys()), index=0)
     with col2:
-        # 페르소나 선택
-        persona = st.selectbox(
-            "👤 페르소나 선택",
-            list(ROLES.keys()),
-            index=0,
-            help="자신의 직군을 선택하세요",
-        )
+        kw_input = st.text_input("키워드 입력 (쉼표 구분)", placeholder="AWS, 생성형 AI, 금융 클라우드, 보안")
+        period = st.radio("조회 기간", list(WINDOW_MAP.keys()), horizontal=True, index=0)
 
-        # 최소 키워드 입력
-        keyword_input = st.text_input(
-            "🔍 키워드 입력",
-            placeholder="산업군, 고객사명 또는 경쟁사명 (예: 금융 망분리, 삼성전자)",
-            help="쉼표로 구분하여 여러 키워드 입력 가능",
-        )
+    if not ROLES[persona]["supported"]:
+        st.warning("현재 MVP에서는 영업과 프리세일즈 워크플로우만 실행됩니다.")
 
-        # 조회 기간
-        period = st.radio("📅 조회 기간", list(WINDOW_MAP.keys()), horizontal=True, index=0)
-
-        st.markdown("")
-        if st.button("🚀 시작하기", type="primary", use_container_width=True):
-            if not ROLES[persona]["supported"]:
-                st.error("MVP에서는 영업/프리세일즈만 지원합니다.")
-            else:
-                # 키워드 파싱
-                kws = [k.strip() for k in keyword_input.split(",") if k.strip()] if keyword_input else DEFAULT_KEYWORDS[:4]
-                st.session_state["selected_role"] = persona
-                st.session_state["role_key"] = ROLES[persona]["target_role"]
-                st.session_state["search_keywords"] = kws
-                st.session_state["keyword_pool"] = list(set(DEFAULT_KEYWORDS + kws))
-                st.session_state["time_window"] = WINDOW_MAP[period]
-                st.session_state["phase"] = "loading"
-                st.rerun()
-
-    st.markdown("</div>", unsafe_allow_html=True)
+    if st.button("분석 시작", type="primary", disabled=not ROLES[persona]["supported"]):
+        kws = [k.strip() for k in kw_input.split(",") if k.strip()] if kw_input else DEFAULT_KEYWORDS[:4]
+        st.session_state.update({
+            "selected_role": persona,
+            "role_key": ROLES[persona]["target_role"],
+            "selected_purpose": purpose_sel,
+            "purpose_id": PURPOSES[purpose_sel]["id"],
+            "search_keywords": kws,
+            "keyword_pool": list(set(DEFAULT_KEYWORDS + kws)),
+            "time_window": WINDOW_MAP[period],
+            "phase": "loading",
+        })
+        st.rerun()
     st.stop()
 
-
-# ═══════════════════════════════════════════════════
-# Loading Phase: 백그라운드 수집 + 분석
-# ═══════════════════════════════════════════════════
+# ═══════════════════════════════════════
+# LOADING
+# ═══════════════════════════════════════
 if st.session_state["phase"] == "loading":
-    st.markdown("## ⏳ AI 에이전트가 뉴스를 탐색하고 있습니다...")
+    st.markdown("### 분석 진행 중...")
     progress = st.progress(0)
-
     kws = st.session_state["search_keywords"]
     window = st.session_state["time_window"]
     role_key = st.session_state["role_key"]
+    purpose_id = st.session_state["purpose_id"]
 
-    # Step 1: 수집
-    progress.progress(0.1, "📡 5개 언론사에서 뉴스 수집 중...")
+    progress.progress(0.1, "뉴스 수집 중...")
     collect_result = collect_articles(kws, window)
     norm_result = normalize_articles(collect_result["raw_articles"])
     articles = norm_result["normalized_articles"]
-    progress.progress(0.3, f"✅ {len(articles)}건 수집 완료")
+    progress.progress(0.3, f"{len(articles)}건 수집 완료")
 
-    # Step 2: 중복 제거
-    progress.progress(0.4, "🔄 중복/노이즈 제거 중...")
+    progress.progress(0.4, "중복/노이즈 제거 중...")
     dedup_result = dedup_and_vectorize(articles)
     filtered = dedup_result["filtered_articles"]
-    progress.progress(0.5, f"✅ {len(filtered)}건 유효")
+    progress.progress(0.5)
 
-    # Step 3: 분석
-    progress.progress(0.6, "🧠 Bedrock 기사 분석 중...")
-    analyzed = analyze_articles(filtered, st.session_state["selected_role"], "custom_search")
-    progress.progress(0.7, f"✅ {len(analyzed)}건 분석 완료")
+    progress.progress(0.6, "Bedrock 분석 중...")
+    analyzed = analyze_articles(filtered, st.session_state["selected_role"], purpose_id)
+    progress.progress(0.7)
 
-    # Step 4: 스코어링
-    progress.progress(0.8, "📊 스코어링 중...")
-    user_intent = build_user_intent_text(role_key, "custom_search", kws, [])
+    progress.progress(0.8, "스코어링 중...")
+    user_intent = build_user_intent_text(role_key, purpose_id, kws, [])
     try:
         user_vector = np.array(get_embedding(user_intent), dtype=np.float32)
     except Exception:
@@ -153,242 +136,227 @@ if st.session_state["phase"] == "loading":
     max_cluster = max(opp_counts.values()) if opp_counts else 1
 
     for art in analyzed:
-        # 이유: dedup 단계에서 이미 생성된 embedding 재사용 → Bedrock 호출 0회
-        if "embedding" in art and art["embedding"]:
-            art_vector = np.array(art["embedding"], dtype=np.float32)
-        else:
-            # fallback: embedding 없는 기사만 새로 호출
-            try:
-                art_vector = np.array(get_embedding(build_article_intent_text(art)), dtype=np.float32)
-            except Exception:
-                art_vector = np.zeros_like(user_vector)
-
-        rk_score = calculate_role_keyword_match_score(user_vector, art_vector)
-        art["role_keyword_match_score"] = rk_score
+        art_vector = np.array(art["embedding"], dtype=np.float32) if "embedding" in art else np.zeros_like(user_vector)
+        rk = calculate_role_keyword_match_score(user_vector, art_vector)
+        art["role_keyword_match_score"] = rk
         art["recency_score"] = calculate_recency_score(art.get("published_at", ""))
         art["hotness_score"] = calculate_hotness_score(opp_counts.get(art.get("opportunity_type","other"),1), max_cluster)
-        art["source_weight"] = get_source_weight(art.get("source_id",""), role_key, art.get("section",""), "custom_search", art.get("opportunity_type",""))
+        art["source_weight"] = get_source_weight(art.get("source_id",""), role_key, art.get("section",""), purpose_id, art.get("opportunity_type",""))
         art["llm_importance"] = art.get("importance", 5)
         noise_p = 0.7 if any(nk in art.get("title","").lower() for nk in NOISE_KEYWORDS) else 1.0
-        final = calculate_final_score(art, art["source_weight"], rk_score, art["recency_score"], art["hotness_score"], noise_p)
-        art["final_score_100"] = final
-        art["score_reason"] = build_score_reason(art, final, art["source_weight"], rk_score)
+        art["final_score_100"] = calculate_final_score(art, art["source_weight"], rk, art["recency_score"], art["hotness_score"], noise_p)
+        art["score_reason"] = build_score_reason(art, art["final_score_100"], art["source_weight"], rk)
 
     analyzed.sort(key=lambda x: x.get("final_score_100", 0), reverse=True)
-
-    # Step 5: 트렌드/여론
-    progress.progress(0.9, "📈 트렌드/여론 분석 중...")
+    progress.progress(0.9, "트렌드/여론 분석 중...")
     trends = extract_trend_keywords(analyzed)
     sentiment_ov = calculate_sentiment_overview(analyzed)
     source_rx = calculate_source_reactions(analyzed)
 
-    # 저장
-    st.session_state["articles"] = analyzed
-    st.session_state["trends"] = trends
-    st.session_state["sentiment_overview"] = sentiment_ov
-    st.session_state["source_reactions"] = source_rx
-    st.session_state["collect_result"] = collect_result
-    st.session_state["phase"] = "dashboard"
-    progress.progress(1.0, "✅ 완료!")
+    st.session_state.update({
+        "articles": analyzed, "trends": trends, "sentiment_overview": sentiment_ov,
+        "source_reactions": source_rx, "collect_result": collect_result,
+        "dedup_result": dedup_result, "phase": "dashboard", "last_analysis": datetime.now().strftime("%H:%M"),
+    })
+    progress.progress(1.0, "완료")
     st.rerun()
 
-
-# ═══════════════════════════════════════════════════
-# 4.2~4.4 Dashboard Phase
-# ═══════════════════════════════════════════════════
+# ═══════════════════════════════════════
+# 2-5. DASHBOARD
+# ═══════════════════════════════════════
 if st.session_state["phase"] == "dashboard":
     articles = st.session_state["articles"]
     trends = st.session_state["trends"]
     sentiment_ov = st.session_state["sentiment_overview"]
     source_rx = st.session_state["source_reactions"]
 
-    # ─── 4.2 Sticky Header (접이식) ───
+    # ─── 2. STICKY HEADER ───
     with st.container():
-        hdr_col1, hdr_col2 = st.columns([9, 1])
-        with hdr_col1:
-            role_display = st.session_state["selected_role"]
-            kw_display = ", ".join(st.session_state["search_keywords"][:5])
-            if st.session_state["header_expanded"]:
-                st.markdown(f"**👤 {role_display}** | 🔍 키워드: {kw_display} | 📰 {len(articles)}건 분석됨")
+        hcol1, hcol2 = st.columns([10, 1])
+        with hcol1:
+            summary = f"{st.session_state['selected_role']} | {st.session_state['selected_purpose']} | {len(articles)}건 분석 | {st.session_state.get('last_analysis','')}"
+            if not st.session_state["header_expanded"]:
+                st.caption(summary)
             else:
-                st.caption(f"👤 {role_display} | 🔍 {kw_display} | 📰 {len(articles)}건")
-        with hdr_col2:
-            if st.button("📌" if st.session_state["header_expanded"] else "📎"):
+                st.markdown(f"**{summary}**")
+        with hcol2:
+            if st.button("접기" if st.session_state["header_expanded"] else "펼치기", key="toggle_hdr"):
                 st.session_state["header_expanded"] = not st.session_state["header_expanded"]
                 st.rerun()
 
         if st.session_state["header_expanded"]:
-            # 키워드 튜닝 인터페이스
-            st.markdown("---")
-            tune_col1, tune_col2 = st.columns([1, 3])
-            with tune_col1:
-                if st.button("🤖 AI 키워드 추천"):
+            fc1, fc2, fc3 = st.columns([2, 4, 2])
+            with fc1:
+                new_role = st.selectbox("직군", [r for r in ROLES if ROLES[r]["supported"]], index=0, key="hdr_role")
+                new_purpose = st.selectbox("목적", list(PURPOSES.keys()), index=0, key="hdr_purpose")
+            with fc2:
+                # Keyword chips
+                active_kws = st.multiselect("활성 키워드", st.session_state["keyword_pool"], default=st.session_state["search_keywords"], key="hdr_kws")
+                if st.button("AI 추천 키워드 생성"):
                     with st.spinner("추천 중..."):
-                        r = recommend_keywords(st.session_state["search_keywords"][:5], st.session_state["selected_role"], "custom_search")
+                        r = recommend_keywords(active_kws[:5], new_role, PURPOSES[new_purpose]["id"])
                         for kw in r.get("recommended_keywords", []):
                             if kw not in st.session_state["keyword_pool"]:
                                 st.session_state["keyword_pool"].append(kw)
                         st.rerun()
-            with tune_col2:
-                # Keyword Chips (multiselect로 구현)
-                active_kws = st.multiselect(
-                    "활성 키워드 (추가/제거 가능)",
-                    options=st.session_state["keyword_pool"],
-                    default=st.session_state["search_keywords"],
-                    label_visibility="collapsed",
-                )
-                if set(active_kws) != set(st.session_state["search_keywords"]):
-                    st.session_state["search_keywords"] = active_kws
-
-            # 재검색 버튼
-            if st.button("🔄 키워드 변경 후 재분석", use_container_width=True):
-                st.session_state["phase"] = "loading"
-                st.rerun()
+            with fc3:
+                if st.button("조건 적용 및 재분석", type="primary"):
+                    st.session_state.update({
+                        "selected_role": new_role, "role_key": ROLES[new_role]["target_role"],
+                        "selected_purpose": new_purpose, "purpose_id": PURPOSES[new_purpose]["id"],
+                        "search_keywords": active_kws, "phase": "loading",
+                    })
+                    st.rerun()
             st.markdown("---")
 
-    # ─── 4.3 Summary Dashboard ───
-    # A. 인사이트 요약 문장
-    st.subheader("💡 인사이트 요약")
+    # ─── 3. SUMMARY DASHBOARD ───
+    # KPI
+    cr = st.session_state["collect_result"]
+    dr = st.session_state["dedup_result"]
+    m1, m2, m3, m4, m5, m6 = st.columns(6)
+    m1.metric("수집", cr["total_count"])
+    m2.metric("중복 제거", dr["duplicate_count"])
+    m3.metric("노이즈 제거", dr["noise_count"])
+    m4.metric("분석 완료", len(articles))
+    m5.metric("중요도 8+", sum(1 for a in articles if a.get("importance",0)>=8))
+    m6.metric("평균 매칭도", f"{np.mean([a.get('role_keyword_match_score',0) for a in articles]):.2f}" if articles else "0")
+
+    # Insight Summary
+    st.markdown('<div class="section-title">INSIGHT SUMMARY</div>', unsafe_allow_html=True)
     if articles:
         top = articles[0]
-        sentiment_label = sentiment_ov.get("label", "중립/혼재") if sentiment_ov else "분석 중"
-        st.info(f"**Context:** 현재 시장은 '{sentiment_label}' 상태이며, 상위 기사는 '{top.get('opportunity_type','market_trend')}' 유형입니다. "
-                f"**Action:** {top.get('suggested_action', '주요 기사를 확인하고 고객 접점을 준비하세요.')}")
+        label = sentiment_ov.get("label", "") if sentiment_ov else ""
+        st.markdown(f"**Context:** 현재 시장은 '{label}' 상태이며, 주요 기회 유형은 '{top.get('opportunity_type','')}'입니다.")
+        st.markdown(f"**Recommended Action:** {top.get('suggested_action', '주요 기사를 확인하고 고객 접점을 준비하세요.')}")
 
-    # B. 유형별 기사 목록 (Top 5 with Impact Score)
-    st.subheader("📰 Priority News")
-
+    # Top 5 Priority News
+    st.markdown('<div class="section-title">TOP 5 PRIORITY NEWS</div>', unsafe_allow_html=True)
     for rank, art in enumerate(articles[:5], 1):
-        left, right = st.columns([8, 2])
+        left, right = st.columns([9, 1])
         with left:
-            # Type badge
             opp = art.get("opportunity_type", "other")
-            badge_map = {
-                "sales_opportunity": ("SALES LEAD", "badge-lead"),
-                "lead_generation": ("SALES LEAD", "badge-lead"),
-                "customer_signal": ("SALES LEAD", "badge-lead"),
-                "proposal_evidence": ("POLICY ALERT", "badge-policy"),
-                "competitive_intelligence": ("CSP UPDATE", "badge-csp"),
-                "competitor_signal": ("CSP UPDATE", "badge-csp"),
-                "market_trend": ("TREND", "badge-trend"),
-                "security_risk": ("BREAKING NEWS", "badge-breaking"),
-            }
-            badge_text, badge_class = badge_map.get(opp, ("NEWS", "badge-trend"))
-            st.markdown(f"<span class='type-badge {badge_class}'>{badge_text}</span>", unsafe_allow_html=True)
-
-            st.markdown(f"**{art.get('title', '')}**")
-            st.caption(f"{art.get('source_name','')} | {art.get('published_at','')[:10]}")
-
-            with st.expander("💡 인사이트 & 액션"):
-                st.write(f"**요약:** {art.get('summary_ko', art.get('snippet','')[:200])}")
-                st.write(f"**Why it matters:** {art.get('why_it_matters','')}")
-                st.markdown(f"🎯 **Recommended Action:** {art.get('suggested_action','')}")
-                st.caption(f"Score: {art.get('score_reason','')}")
-                st.link_button("원문 보기", art.get("url", "#"))
-
+            badge_map = {"sales_opportunity":"badge-sales","lead_generation":"badge-sales","customer_signal":"badge-sales","proposal_evidence":"badge-proposal","competitive_intelligence":"badge-competitive","competitor_signal":"badge-competitive","market_trend":"badge-trend","security_risk":"badge-risk"}
+            badge_cls = badge_map.get(opp, "badge-trend")
+            label_map = {"sales_opportunity":"SALES","lead_generation":"LEAD","customer_signal":"SIGNAL","proposal_evidence":"PROPOSAL","competitive_intelligence":"COMPETITIVE","competitor_signal":"COMPETITIVE","market_trend":"TREND","security_risk":"RISK"}
+            badge_lbl = label_map.get(opp, opp.upper()[:8])
+            st.markdown(f'<span class="type-badge {badge_cls}">{badge_lbl}</span> **{art.get("title","")}**', unsafe_allow_html=True)
+            st.caption(f'{art.get("source_name","")} | {art.get("published_at","")[:10]} | 감성: {art.get("sentiment","")} | 매칭: {art.get("role_keyword_match_score",0):.2f}')
+            with st.expander("상세"):
+                st.write(f'**요약:** {art.get("summary_ko", art.get("snippet","")[:200])}')
+                st.write(f'**Why:** {art.get("why_it_matters","")}')
+                st.write(f'**Action:** {art.get("suggested_action","")}')
+                st.write(f'**Score:** {art.get("score_reason","")}')
+                st.link_button("원문", art.get("url","#"))
         with right:
-            st.markdown(f"<div class='impact-label'>IMPACT SCORE</div><div class='impact-score'>{art.get('final_score_100', 0)}</div>", unsafe_allow_html=True)
+            st.markdown(f'<div class="score-label">SCORE</div><div class="score-num">{art.get("final_score_100",0)}</div>', unsafe_allow_html=True)
+        st.markdown("---")
 
-        st.divider()
-
-    # ─── 대시보드 차트 ───
-    dash_tab1, dash_tab2, dash_tab3, dash_tab4 = st.tabs(["📈 트렌드", "💭 여론", "🔥 언론사 반응", "📊 통계"])
-
-    with dash_tab1:
+    # Charts
+    st.markdown('<div class="section-title">TRENDS / SENTIMENT / SOURCE REACTION</div>', unsafe_allow_html=True)
+    t1, t2, t3 = st.columns(3)
+    with t1:
         if trends:
-            tdf = pd.DataFrame(trends[:10])
+            tdf = pd.DataFrame(trends[:8])
             if "trend_keyword" in tdf.columns:
-                fig = px.bar(tdf, x="trend_keyword", y="trend_score", title="Top 10 트렌드 키워드", color="trend_score", color_continuous_scale="Oranges")
+                fig = px.bar(tdf, x="trend_score", y="trend_keyword", orientation="h", title="Trend Keywords")
+                fig.update_layout(height=250, margin=dict(l=0,r=0,t=30,b=0), showlegend=False)
                 st.plotly_chart(fig, use_container_width=True)
-
-    with dash_tab2:
+    with t2:
         if sentiment_ov:
-            s1, s2, s3, s4 = st.columns(4)
-            s1.metric("Sentiment Index", f"{sentiment_ov.get('sentiment_index',0):.2f}")
-            s2.metric("긍정", sentiment_ov.get("positive_count", 0))
-            s3.metric("중립", sentiment_ov.get("neutral_count", 0))
-            s4.metric("부정", sentiment_ov.get("negative_count", 0))
-            st.caption(f"전체 여론: **{sentiment_ov.get('label','')}**")
-            pie_df = pd.DataFrame({"감성": ["긍정","중립","부정"], "수": [sentiment_ov.get("positive_count",0), sentiment_ov.get("neutral_count",0), sentiment_ov.get("negative_count",0)]})
-            fig = px.pie(pie_df, names="감성", values="수", color="감성", color_discrete_map={"긍정":"#22c55e","중립":"#9ca3af","부정":"#ef4444"})
+            fig = go.Figure(go.Indicator(mode="gauge+number", value=sentiment_ov.get("sentiment_index",0), title={"text":f"Sentiment ({sentiment_ov.get('label','')})"},
+                gauge={"axis":{"range":[-1,1]},"bar":{"color":"#0969da"},"steps":[{"range":[-1,-0.25],"color":"#fee2e2"},{"range":[-0.25,0.25],"color":"#f3f4f6"},{"range":[0.25,1],"color":"#dcfce7"}]}))
+            fig.update_layout(height=250, margin=dict(l=20,r=20,t=40,b=0))
             st.plotly_chart(fig, use_container_width=True)
-
-    with dash_tab3:
+    with t3:
         if source_rx:
             rx_df = pd.DataFrame(source_rx)
             if "source_name" in rx_df.columns:
-                color_map = {"HOT": "#ef4444", "HOT RISK": "#7f1d1d", "WARM": "#f97316", "COLD": "#3b82f6"}
-                fig = px.bar(rx_df, x="source_name", y="source_reaction_score", color="reaction_label", title="언론사별 반응", color_discrete_map=color_map)
+                fig = px.bar(rx_df, x="source_reaction_score", y="source_name", orientation="h", color="reaction_label",
+                    color_discrete_map={"HOT":"#dc2626","HOT RISK":"#7f1d1d","WARM":"#ea580c","COLD":"#2563eb"}, title="Source Reaction")
+                fig.update_layout(height=250, margin=dict(l=0,r=0,t=30,b=0))
                 st.plotly_chart(fig, use_container_width=True)
 
-    with dash_tab4:
-        if articles:
-            df = pd.DataFrame(articles)
-            c1, c2 = st.columns(2)
-            with c1:
-                if "source_name" in df.columns:
-                    fig = px.bar(df["source_name"].value_counts().reset_index(), x="source_name", y="count", title="언론사별 기사 수")
-                    st.plotly_chart(fig, use_container_width=True)
-            with c2:
-                if "sentiment" in df.columns:
-                    fig = px.pie(df["sentiment"].value_counts().reset_index(), names="sentiment", values="count", title="감성 분포")
-                    st.plotly_chart(fig, use_container_width=True)
+    # ─── 4. SIDE-BY-SIDE EDITOR ───
+    st.markdown('<div class="section-title">DOCUMENT EDITOR</div>', unsafe_allow_html=True)
+    ed_left, ed_right = st.columns(2)
 
-    # ─── 4.4 Side-by-Side Editor ───
-    st.markdown("---")
-    st.subheader("✍️ AI 초안 에디터")
-    st.caption("좌측: 참조 뉴스 원문 | 우측: AI가 생성한 비즈니스 초안 (키워드 변경 시 자동 재작성)")
+    with ed_left:
+        st.markdown("**참조 (V1) - 주요 기사 원문**")
+        ref_text = "\n\n---\n\n".join([f"[{a.get('source_name','')}] {a.get('title','')}\n{a.get('snippet','')[:300]}" for a in articles[:5]])
+        st.text_area("참조 텍스트", ref_text, height=350, key="ref_v1", label_visibility="collapsed")
 
-    # 목적 선택
-    purpose_for_draft = st.radio("초안 유형", list(PURPOSES.keys()), horizontal=True, label_visibility="collapsed", index=0)
-    purpose_id = PURPOSES[purpose_for_draft]["id"]
-
-    editor_left, editor_right = st.columns(2)
-
-    with editor_left:
-        st.markdown("<div class='editor-panel'>", unsafe_allow_html=True)
-        st.markdown("**📄 참조 뉴스 원문**")
-        if articles:
-            # 상위 3개 기사 원문 표시
-            for a in articles[:3]:
-                st.markdown(f"**[{a.get('source_name','')}]** {a.get('title','')}")
-                st.write(a.get("snippet", "")[:300])
-                st.markdown("---")
-        st.markdown("</div>", unsafe_allow_html=True)
-
-    with editor_right:
-        st.markdown("<div class='editor-panel-right'>", unsafe_allow_html=True)
-        st.markdown("**✨ AI 생성 초안 (V+)**")
-
-        if st.button("📝 초안 생성", type="primary", use_container_width=True):
-            with st.spinner("Bedrock으로 초안 작성 중..."):
-                briefing_content = generate_briefing(st.session_state["selected_role"], purpose_id, articles[:10])
-                stats = {"total_collected": len(articles), "after_dedup": len(articles), "analyzed": len(articles), "high_importance": sum(1 for a in articles if a.get("importance",0)>=8), "avg_purpose_fit": 0.7}
-                briefing_html = render_briefing_html(st.session_state["selected_role"], purpose_for_draft, briefing_content, articles[:10], stats)
-                st.session_state["briefing_html"] = briefing_html
-                st.session_state["draft_content"] = briefing_content
+    with ed_right:
+        st.markdown("**초안 (V+) - AI 생성 브리핑**")
+        if "draft_text" not in st.session_state:
+            st.session_state["draft_text"] = ""
+        if st.button("초안 생성", type="primary"):
+            with st.spinner("Bedrock 초안 작성 중..."):
+                content = generate_briefing(st.session_state["selected_role"], st.session_state["purpose_id"], articles[:10])
+                st.session_state["draft_text"] = content
+                stats = {"total_collected":len(articles),"after_dedup":len(articles),"analyzed":len(articles),"high_importance":sum(1 for a in articles if a.get("importance",0)>=8),"avg_purpose_fit":0.7}
+                st.session_state["briefing_html"] = render_briefing_html(st.session_state["selected_role"], st.session_state["selected_purpose"], content, articles[:10], stats)
                 st.rerun()
+        draft = st.text_area("초안 편집", st.session_state["draft_text"], height=350, key="draft_v_plus", label_visibility="collapsed")
+        st.session_state["draft_text"] = draft
 
-        if "draft_content" in st.session_state:
-            st.markdown(st.session_state["draft_content"], unsafe_allow_html=True)
+    # Action toolbar
+    act1, act2, act3, act4, act5 = st.columns(5)
+    with act1:
+        if "briefing_html" in st.session_state:
+            st.download_button("HTML 다운로드", st.session_state["briefing_html"], "briefing.html", "text/html", use_container_width=True)
+    with act2:
+        if st.button("Google Docs 내보내기", use_container_width=True):
+            st.info("Google Docs export는 운영 연동 대상입니다. 현재는 HTML 다운로드를 제공합니다.")
+    with act3:
+        if "briefing_html" in st.session_state:
+            st.download_button("DOCX", f"<html><head><meta charset='utf-8'></head><body>{st.session_state['briefing_html']}</body></html>".encode(), "briefing.doc", "application/msword", use_container_width=True)
+    with act4:
+        if st.button("아키텍처 문서 생성", use_container_width=True):
+            with st.spinner("생성 중..."):
+                from agents.architecture_doc import generate_architecture_doc
+                st.session_state["arch_html"] = generate_architecture_doc()
+                st.rerun()
+    with act5:
+        pass  # Slack alert button below
 
-        st.markdown("</div>", unsafe_allow_html=True)
+    if "arch_html" in st.session_state:
+        with st.expander("아키텍처 문서 미리보기"):
+            st.components.v1.html(st.session_state["arch_html"], height=400, scrolling=True)
+            st.download_button("아키텍처 HTML 다운로드", st.session_state["arch_html"], "architecture.html", "text/html")
 
-    # ─── Export ───
-    if "briefing_html" in st.session_state:
-        st.markdown("---")
-        st.subheader("📥 내보내기")
-        ec1, ec2, ec3, ec4 = st.columns(4)
-        bhtml = st.session_state["briefing_html"]
-        ec1.download_button("📄 HTML", bhtml, "briefing.html", "text/html", use_container_width=True)
-        ec2.download_button("📝 DOCX", f"<html><head><meta charset='utf-8'></head><body>{bhtml}</body></html>".encode(), "briefing.doc", "application/msword", use_container_width=True)
-        ec3.download_button("📋 PDF용", bhtml.replace("</head>","<script>window.onload=function(){window.print();}</script></head>"), "print.html", "text/html", use_container_width=True)
-        from bs4 import BeautifulSoup
-        ec4.download_button("📒 Notion", BeautifulSoup(bhtml,"html.parser").get_text("\n\n"), "briefing.md", "text/markdown", use_container_width=True)
+    # ─── 5. SLACK ALERT SETTINGS ───
+    st.markdown('<div class="section-title">ALERT SETTINGS</div>', unsafe_allow_html=True)
+    with st.expander("Slack Alert 설정"):
+        al1, al2 = st.columns(2)
+        with al1:
+            st.markdown("**정기 요약 보고**")
+            sched_enabled = st.checkbox("활성화", key="sched_on", value=st.session_state["alert_settings"].get("scheduled", False))
+            sched_time = st.time_input("발송 시각", value=datetime.strptime("08:00", "%H:%M").time(), key="sched_time")
+        with al2:
+            st.markdown("**핵심 이슈 실시간 알림**")
+            rt_enabled = st.checkbox("활성화", key="rt_on", value=st.session_state["alert_settings"].get("realtime", False))
+            threshold = st.slider("임팩트 스코어 임계치", 50, 100, 85, key="rt_threshold")
+            alert_count = sum(1 for a in articles if a.get("final_score_100",0) >= threshold)
+            st.caption(f"현재 조건에서 알림 대상: {alert_count}건")
 
-    # ─── 처음으로 돌아가기 ───
+        st.markdown("**모니터링 기간**")
+        mon_type = st.radio("유형", ["상시 모니터링", "프로젝트 기반"], horizontal=True, key="mon_type")
+        if mon_type == "프로젝트 기반":
+            mon_dates = st.date_input("기간", value=(datetime.now().date(), datetime.now().date()), key="mon_dates")
+
+        st.caption("연결: MegazoneCloud Slack Workspace / #sales-radar-alerts")
+
+        if st.button("알림 설정 저장"):
+            st.session_state["alert_settings"] = {
+                "scheduled": sched_enabled, "schedule_time": str(sched_time),
+                "realtime": rt_enabled, "threshold": threshold,
+                "monitoring": mon_type,
+            }
+            st.success("알림 설정이 저장되었습니다.")
+
+    # ─── Footer ───
     st.markdown("---")
-    if st.button("🏠 처음으로 돌아가기"):
+    if st.button("처음으로"):
         for k in list(st.session_state.keys()):
             del st.session_state[k]
         st.rerun()
