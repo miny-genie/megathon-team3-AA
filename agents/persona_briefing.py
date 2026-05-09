@@ -7,11 +7,13 @@ persona_briefing.py - 페르소나별 Briefing 문서 생성 Agent
 3. 프리세일즈: 기술 트렌드, AWS 솔루션 연결, Discovery Questions 중심
 4. 목적별로 문서 강조점이 달라짐 (Lead/Proposal/Competitive)
 5. Bedrock LLM이 문서 본문을 생성 → report_renderer가 HTML로 포장
+6. Bedrock Knowledge Bases(RAG)로 MZC offerings/AWS 서비스 컨텍스트 보강
 """
 import logging
 
 from services.bedrock_client import invoke_model
 from services.guardrails import guardrail_check
+from services.knowledge_base import retrieve_from_kb
 
 logger = logging.getLogger(__name__)
 
@@ -48,6 +50,13 @@ def generate_briefing(
     
     articles_context = _format_articles_for_prompt(top_articles)
     
+    # RAG: Knowledge Base에서 MZC offerings/AWS 서비스 컨텍스트 검색
+    kb_query = f"{role} {purpose} 클라우드 솔루션"
+    kb_results = retrieve_from_kb(kb_query, top_k=3)
+    kb_context = ""
+    if kb_results:
+        kb_context = "\n\n[참고: MZC/AWS 솔루션 컨텍스트]\n" + "\n".join(r["content"] for r in kb_results)
+
     prompt = f"""당신은 메가존클라우드의 {role} 전문 브리핑 작성자입니다.
 
 직군: {role}
@@ -56,6 +65,7 @@ def generate_briefing(
 아래 분석된 기사들을 바탕으로 브리핑 문서를 작성해주세요.
 
 {articles_context}
+{kb_context}
 
 문서 구조 (각 섹션을 <h2> 태그로 구분):
 {sections}
