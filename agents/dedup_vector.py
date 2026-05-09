@@ -79,14 +79,24 @@ def dedup_and_vectorize(normalized_articles: list[dict]) -> dict:
                 continue
             
             _vector_store.add_vector(article["article_id"], embedding)
-            article["embedding"] = embedding  # 이유: 이후 유사 기사 추천에 재사용 가능
+            article["embedding"] = embedding
             vectorized_count += 1
         except Exception as e:
-            # 이유: Embedding 실패해도 기사 자체는 유지 (graceful degradation)
             logger.warning(f"Embedding 실패, 기사 유지: {e}")
             vectorized_count += 1
         
         filtered.append(article)
+    
+    # 이유: cluster_size 계산 - opportunity_type 기준으로 같은 유형 기사 수
+    opp_counts = {}
+    for a in filtered:
+        opp = a.get("opportunity_type", "other")
+        opp_counts[opp] = opp_counts.get(opp, 0) + 1
+    for a in filtered:
+        opp = a.get("opportunity_type", "other")
+        a["cluster_size"] = opp_counts.get(opp, 1)
+        # representative_keyword: 제목에서 가장 긴 명사 후보 추출
+        a["representative_keyword"] = _extract_representative_keyword(a)
     
     logger.info(
         f"Dedup 완료: {len(filtered)}건 유효, "
@@ -99,6 +109,14 @@ def dedup_and_vectorize(normalized_articles: list[dict]) -> dict:
         "noise_count": noise_count,
         "vectorized_count": vectorized_count,
     }
+
+
+def _extract_representative_keyword(article: dict) -> str:
+    """제목에서 대표 키워드 추출. 이유: 트렌드 분석과 hotness 계산에 사용."""
+    title = article.get("title", "")
+    words = [w for w in title.split() if len(w) >= 2]
+    # 가장 긴 단어를 대표 키워드로 (간이 구현)
+    return max(words, key=len) if words else ""
 
 
 def _is_noise(article: dict) -> bool:

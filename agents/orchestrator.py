@@ -128,6 +128,7 @@ def run_pipeline(
     _log("저장", "결과 저장 중...")
     storage_result = store_results(
         raw_articles=raw_articles,
+        normalized_articles=normalized,
         analyzed_articles=analyzed,
         briefing_html=briefing_html,
     )
