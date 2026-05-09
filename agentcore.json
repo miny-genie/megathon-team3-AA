@@ -1,0 +1,29 @@
+{
+  "name": "MZCSalesRadar",
+  "version": "1.0.0",
+  "description": "MZC Sales Radar - AWS Bedrock + AgentCore 기반 Multi-Agent 뉴스 인텔리전스",
+  "agents": [
+    {
+      "name": "MZCSalesRadar",
+      "runtime": {
+        "entrypoint": "entrypoint.py",
+        "language": "python",
+        "framework": "strands"
+      },
+      "model": {
+        "provider": "bedrock",
+        "modelId": "anthropic.claude-sonnet-4-20250514"
+      },
+      "tools": [
+        {
+          "name": "analyze_news",
+          "description": "뉴스 수집 및 분석 실행"
+        },
+        {
+          "name": "get_keyword_recommendations",
+          "description": "AI 키워드 추천"
+        }
+      ]
+    }
+  ]
+}
