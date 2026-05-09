@@ -1,1 +1,474 @@
-∢ਢ灡⹰祰ⴠ䄠敧瑮䄠杲獯⠠牐摯捵楴湯唠⥉㼊㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀㾀઀潎攠潭楪‮潎搠捥牯瑡癩⁥慬摮湩⹧䐠湥敳‬牰景獥楳湯污椠瑮牥慮⁬慓卡琠潯⹬∊∢椊灭牯⁴祳ⱳ漠ੳ牦浯搠瑡瑥浩⁥浩潰瑲搠瑡瑥浩੥牦浯挠汯敬瑣潩獮椠灭牯⁴潃湵整ੲ猊獹瀮瑡⹨湩敳瑲〨‬獯瀮瑡⹨楤湲浡⡥獯瀮瑡⹨扡灳瑡⡨彟楦敬彟⤩਩椊灭牯⁴瑳敲浡楬⁴獡猠ੴ浩潰瑲瀠湡慤⁳獡瀠੤浩潰瑲渠浵祰愠⁳灮椊灭牯⁴汰瑯祬攮灸敲獳愠⁳硰椊灭牯⁴汰瑯祬朮慲桰潟橢捥獴愠⁳潧ਊ牦浯挠湯楦⁧浩潰瑲删䱏卅‬啐偒协卅‬䕄䅆䱕彔䕋坙剏卄‬䥗䑎坏䵟偁‬低卉彅䕋坙剏卄昊潲⁭条湥獴欮祥潷摲灟慬湮牥椠灭牯⁴敲潣浭湥彤敫睹牯獤昊潲⁭条湥獴挮汯敬瑣牯椠灭牯⁴潣汬捥彴牡楴汣獥昊潲⁭条湥獴渮牯慭楬敺⁲浩潰瑲渠牯慭楬敺慟瑲捩敬ੳ牦浯愠敧瑮⹳敤畤彰敶瑣牯椠灭牯⁴敤畤彰湡彤敶瑣牯穩੥牦浯愠敧瑮⹳湩楳桧彴湡污獹⁴浩潰瑲愠慮祬敺慟瑲捩敬ੳ牦浯愠敧瑮⹳数獲湯彡牢敩楦杮椠灭牯⁴敧敮慲整扟楲晥湩੧牦浯猠牥楶散⹳敲潰瑲牟湥敤敲⁲浩潰瑲爠湥敤彲牢敩楦杮桟浴੬牦浯猠牥楶散⹳捳牯湩⁧浩潰瑲⠠ †朠瑥獟畯捲彥敷杩瑨‬畢汩彤獵牥楟瑮湥彴整瑸‬畢汩彤牡楴汣彥湩整瑮瑟硥ⱴ †挠污畣慬整牟汯彥敫睹牯彤慭捴彨捳牯ⱥ挠污畣慬整牟捥湥祣獟潣敲ਬ††慣捬汵瑡彥潨湴獥彳捳牯ⱥ挠污畣慬整晟湩污獟潣敲‬畢汩彤捳牯彥敲獡湯ਬ਩牦浯猠牥楶散⹳牴湥彤湡污穹牥椠灭牯⁴硥牴捡彴牴湥彤敫睹牯獤‬慣捬汵瑡彥敳瑮浩湥彴癯牥楶睥‬慣捬汵瑡彥潳牵散牟慥瑣潩獮昊潲⁭敳癲捩獥戮摥潲正损楬湥⁴浩潰瑲朠瑥敟扭摥楤杮ਊ瑳献瑥灟条彥潣普杩瀨条彥楴汴㵥䄢敧瑮䄠杲獯Ⱒ瀠条彥捩湯丽湯ⱥ氠祡畯㵴眢摩≥‬湩瑩慩彬楳敤慢彲瑳瑡㵥挢汯慬獰摥⤢ਊ‣耿耿耿䌠卓㼠㾀㾀઀瑳洮牡摫睯⡮∢㰢瑳汹㹥嬊慤慴琭獥楴㵤猢䅴灰楖睥潃瑮楡敮≲⁝⁻慢正牧畯摮›昣昵昷㭡素⸊汢捯⵫潣瑮楡敮⁲⁻慰摤湩ⵧ潴㩰ㄠ敲㭭洠硡眭摩桴›㈱〰硰※੽献捥楴湯琭瑩敬笠映湯⵴楳敺〺㤮敲㭭映湯⵴敷杩瑨㜺〰※潣潬㩲ㄣㅡㅡ㭡洠牡楧㩮〲硰〠ㄠ瀲⁸㬰瀠摡楤杮戭瑯潴㩭瀶㭸戠牯敤⵲潢瑴浯㈺硰猠汯摩⌠ㅥ㑥㡥※੽洮瑥楲ⵣ潢⁸⁻慢正牧畯摮⌺晦㭦戠牯敤㩲瀱⁸潳楬⁤攣攱攴㬸戠牯敤⵲慲楤獵㘺硰※慰摤湩㩧㈱硰ㄠ瀶㭸素⸊敭牴捩戭硯⸠慶⁬⁻潦瑮猭穩㩥⸱爵浥※潦瑮眭楥桧㩴〷㬰挠汯牯⌺愱㌷㡥※੽洮瑥楲ⵣ潢⁸氮汢笠映湯⵴楳敺〺㜮爲浥※潣潬㩲㔣㙦㘳㬸琠硥⵴牴湡晳牯㩭灵数捲獡㭥素嬊慤慴琭獥楴㵤猢䵴瑥楲≣⁝⁻慢正牧畯摮⌺晦㭦戠牯敤㩲瀱⁸潳楬⁤攣攸敡㭤戠牯敤⵲慲楤獵㘺硰※慰摤湩㩧瀸⁸㈱硰※੽⼼瑳汹㹥∢Ⱒ甠獮晡彥污潬彷瑨汭吽畲⥥ਊ‣耿耿耿匠獥楳湯匠慴整䤠楮⁴耿耿耿搊晥畡瑬⁳‽≻桰獡≥›氢湡楤杮Ⱒ∠敫睹牯彤潰汯㨢氠獩⡴䕄䅆䱕彔䕋坙剏卄Ⱙ∠敳牡档歟祥潷摲≳›嵛‬栢慥敤彲硥慰摮摥㨢吠畲ⱥ∠污牥彴敳瑴湩獧㨢笠絽昊牯欠‬⁶湩搠晥畡瑬⹳瑩浥⡳㨩 †椠⁦⁫潮⁴湩猠⹴敳獳潩彮瑳瑡㩥 †††猠⹴敳獳潩彮瑳瑡孥嵫㴠瘠ਊ‣逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐⌿ㄠ‮䅌䑎义⁇䅐䕇⌊㼠邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕㼿晩猠⹴敳獳潩彮瑳瑡孥瀢慨敳崢㴠‽氢湡楤杮㨢 †猠⹴慭歲潤湷∨⌣䄠敧瑮䄠杲獯⤢ †猠⹴慣瑰潩⡮钩㿪ꇬ뒁밿髬㾰㼿薗㾰萿ꛫ㾬벝ꛬ‿萿闭ₜ됿諬₤룪颰㼠薗㼠钅ꛫ蒠㼿਩††瑳洮牡摫睯⡮ⴢⴭ⤢ਊ††潣ㅬ‬潣㉬㴠猠⹴潣畬湭⡳⤲ †眠瑩⁨潣ㅬ਺††††数獲湯⁡‽瑳献汥捥扴硯∨꟬낵㼠鶃Ⱒ氠獩⡴佒䕌⹓敫獹⤨Ⱙ椠摮硥〽਩††††異灲獯彥敳⁬‽瑳献汥捥扴硯∨뛫鶄ꦪꃬ⊁‬楬瑳倨剕佐䕓⹓敫獹⤨Ⱙ椠摮硥〽਩††楷桴挠汯㨲 †††欠彷湩異⁴‽瑳琮硥彴湩異⡴㼢貛㼿蔿ꃫ₥㼨鲑겵뛫⦄Ⱒ瀠慬散潨摬牥∽坁ⱓ㼠놄㼿䥁‬룪떜㼠벝뀿鏫Ⲝ뒳闬⊈਩††††数楲摯㴠猠⹴慲楤⡯낡髭₌룪蒰Ⱒ氠獩⡴䥗䑎坏䵟偁欮祥⡳⤩‬潨楲潺瑮污吽畲ⱥ椠摮硥〽਩ †椠⁦潮⁴佒䕌孓数獲湯嵡≛畳灰牯整≤㩝 †††猠⹴慷湲湩⡧㼢겞䴠偖逿蓬㾜㼿薗돪㼿겦렿鷬㾦谿臭㾬鲡뀿꟫₌ꐿ雭㾉袋㼿⤢ਊ††晩猠⹴畢瑴湯∨뛫鶄㼠醞Ⱒ琠灹㵥瀢楲慭祲Ⱒ搠獩扡敬㵤潮⁴佒䕌孓数獲湯嵡≛畳灰牯整≤⥝਺††††睫⁳‽歛献牴灩⤨映牯欠椠⁮睫楟灮瑵献汰瑩∨∬ 晩欠献牴灩⤨⁝晩欠彷湩異⁴汥敳䐠䙅啁呌䭟奅佗䑒੓††††瑳献獥楳湯獟慴整甮摰瑡⡥੻††††††猢汥捥整彤潲敬㨢瀠牥潳慮ਬ††††††爢汯彥敫≹›佒䕌孓数獲湯嵡≛慴杲瑥牟汯≥ⱝ †††††∠敳敬瑣摥灟牵潰敳㨢瀠牵潰敳獟汥ਬ††††††瀢牵潰敳楟≤›啐偒协卅灛牵潰敳獟汥孝椢≤ⱝ †††††∠敳牡档歟祥潷摲≳›睫ⱳ †††††∠敫睹牯彤潰汯㨢氠獩⡴敳⡴䕄䅆䱕彔䕋坙剏卄⬠欠獷⤩ਬ††††††琢浩彥楷摮睯㨢圠义佄彗䅍子数楲摯ⱝ †††††∠桰獡≥›氢慯楤杮Ⱒ †††素਩††††瑳爮牥湵⤨ †猠⹴瑳灯⤨ਊ‣逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐⌿䰠䅏䥄䝎⌊㼠邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕㼿晩猠⹴敳獳潩彮瑳瑡孥瀢慨敳崢㴠‽氢慯楤杮㨢 †猠⹴慭歲潤湷∨⌣‣뛫鶄蒧雭₉ꓬ⸿∮਩††牰杯敲獳㴠猠⹴牰杯敲獳〨਩††睫⁳‽瑳献獥楳湯獟慴整≛敳牡档歟祥潷摲≳੝††楷摮睯㴠猠⹴敳獳潩彮瑳瑡孥琢浩彥楷摮睯崢 †爠汯彥敫⁹‽瑳献獥楳湯獟慴整≛潲敬歟祥崢 †瀠牵潰敳楟⁤‽瑳献獥楳湯獟慴整≛異灲獯彥摩崢ਊ††牰杯敲獳瀮潲牧獥⡳⸰ⰱ∠됿諬₤頿꟬ₑꓬ⸿∮਩††潣汬捥彴敲畳瑬㴠挠汯敬瑣慟瑲捩敬⡳睫ⱳ眠湩潤⥷ †渠牯彭敲畳瑬㴠渠牯慭楬敺慟瑲捩敬⡳潣汬捥彴敲畳瑬≛慲彷牡楴汣獥崢਩††牡楴汣獥㴠渠牯彭敲畳瑬≛潮浲污穩摥慟瑲捩敬≳੝††牰杯敲獳瀮潲牧獥⡳⸰ⰳ映笢敬⡮牡楴汣獥紩뇪㼿醧㼠貣⤢ਊ††牰杯敲獳瀮潲牧獥⡳⸰ⰴ∠ꓬ떳㼯뒝ꛬ㼿낱㾤⸮⤢ †搠摥灵牟獥汵⁴‽敤畤彰湡彤敶瑣牯穩⡥牡楴汣獥਩††楦瑬牥摥㴠搠摥灵牟獥汵孴昢汩整敲彤牡楴汣獥崢 †瀠潲牧獥⹳牰杯敲獳〨㔮਩ †瀠潲牧獥⹳牰杯敲獳〨㘮‬䈢摥潲正蒶蓬₝ꓬ⸿∮਩††‣脿鳬₄〲냪貧䰠䵌蒶蓬₝㼨蒏鲵ꃬ㾁‿〲냪쌿ₗ慈歩⁵‽㉾㾴 †愠瑲捩敬彳潴慟慮祬敺㴠映汩整敲孤㈺崰 †愠慮祬敺⁤‽湡污穹彥牡楴汣獥愨瑲捩敬彳潴慟慮祬敺‬瑳献獥楳湯獟慴整≛敳敬瑣摥牟汯≥ⱝ瀠牵潰敳楟⥤ †⌠㼠뢨꟬㾀蒶蓬₝蘿鷬₴룪뢳냪벜ꇫ钶㿪 †映牯愠瑲椠⁮楦瑬牥摥㉛㨰㩝 †††愠瑲甮摰瑡⡥≻浩潰瑲湡散㨢㌠‬猢湥楴敭瑮㨢∠敮瑵慲≬‬漢灰牯畴楮祴瑟灹≥›漢桴牥Ⱒ∠敲敬慶据彥潴浟捺㨢〠㌮‬瀢牵潰敳晟瑩㨢〠㌮‬猢浵慭祲歟≯›牡⹴敧⡴猢楮灰瑥Ⱒ∢嬩ㄺ〰ⱝ∠桷役瑩浟瑡整獲㨢∠Ⱒ∠畳杧獥整彤捡楴湯㨢∠Ⱒ∠慴杲瑥牟汯≥›戢瑯≨⥽ †††愠慮祬敺⹤灡数摮愨瑲਩††牰杯敲獳瀮潲牧獥⡳⸰⤷ਊ††牰杯敲獳瀮潲牧獥⡳⸰ⰸ∠ꐿ뷬㾔膧㾤⸮⤢ †⌠㼠ꂜ›浅敢摤湩⁧렿뛬㾜鲵蛬㾌‿獵牥椠瑮湥⁴袲꟫₌렿뛬㾜ꂳ낸苬㾬㼿钊莲꟫₌갿髬⺩ †甠敳彲湩整瑮㴠戠極摬畟敳彲湩整瑮瑟硥⡴潲敬歟祥‬異灲獯彥摩‬睫ⱳ嬠⥝ †琠祲਺††††獵牥癟捥潴⁲‽灮愮牲祡木瑥敟扭摥楤杮用敳彲湩整瑮Ⱙ搠祴数渽⹰汦慯㍴⤲ †攠捸灥⁴硅散瑰潩㩮 †††甠敳彲敶瑣牯㴠丠湯੥ †漠灰损畯瑮⁳‽潃湵整⡲⹡敧⡴漢灰牯畴楮祴瑟灹≥‬漢桴牥⤢映牯愠椠⁮湡污穹摥਩††慭彸汣獵整⁲‽慭⡸灯彰潣湵獴瘮污敵⡳⤩椠⁦灯彰潣湵獴攠獬⁥਱ †映牯愠瑲椠⁮湡污穹摥਺††††‣潲敬歟祥潷摲浟瑡档›浥敢摤湩⁧蠿鳬㾩潣楳敮‬蘿鳬㾩ꐿ鯬㾌릲맬₨맫ꢜ †††椠⁦獵牥癟捥潴⁲獩渠瑯丠湯⁥湡⁤攢扭摥楤杮•湩愠瑲愠摮愠瑲≛浥敢摤湩≧㩝 †††††愠瑲癟捥潴⁲‽灮愮牲祡愨瑲≛浥敢摤湩≧ⱝ搠祴数渽⹰汦慯㍴⤲ †††††爠⁫‽慣捬汵瑡彥潲敬歟祥潷摲浟瑡档獟潣敲用敳彲敶瑣牯‬牡彴敶瑣牯਩††††汥敳਺††††††‣慦汬慢正›ꐿ鯬㾌㼿ꢕ蒹鳬㾡냪뒝꒧맬ભ††††††楴汴彥潬敷⁲‽牡⹴敧⡴琢瑩敬Ⱒ∠⤢氮睯牥⤨ †††††洠瑡档损畯瑮㴠猠浵ㄨ映牯欠椠⁮睫⁳晩欠氮睯牥⤨椠⁮楴汴彥潬敷⥲ †††††爠⁫‽業⡮慭捴彨潣湵⁴ 慭⡸敬⡮睫⥳‬⤱‬⸱⤰ †††愠瑲≛潲敬歟祥潷摲浟瑡档獟潣敲崢㴠爠੫††††牡孴爢捥湥祣獟潣敲崢㴠挠污畣慬整牟捥湥祣獟潣敲愨瑲朮瑥∨異汢獩敨彤瑡Ⱒ∠⤢਩††††牡孴栢瑯敮獳獟潣敲崢㴠挠污畣慬整桟瑯敮獳獟潣敲漨灰损畯瑮⹳敧⡴牡⹴敧⡴漢灰牯畴楮祴瑟灹≥∬瑯敨≲Ⱙ⤱‬慭彸汣獵整⥲ †††愠瑲≛潳牵散睟楥桧≴⁝‽敧彴潳牵散睟楥桧⡴牡⹴敧⡴猢畯捲彥摩Ⱒ∢Ⱙ爠汯彥敫ⱹ愠瑲朮瑥∨敳瑣潩≮∬⤢‬異灲獯彥摩‬牡⹴敧⡴漢灰牯畴楮祴瑟灹≥∬⤢਩††††牡孴氢浬楟灭牯慴据≥⁝‽牡⹴敧⡴椢灭牯慴据≥‬⤵ †††渠楯敳灟㴠〠㜮椠⁦湡⡹歮椠⁮牡⹴敧⡴琢瑩敬Ⱒ∢⸩潬敷⡲ 潦⁲歮椠⁮低卉彅䕋坙剏卄 汥敳ㄠ〮 †††愠瑲≛楦慮彬捳牯彥〱∰⁝‽慣捬汵瑡彥楦慮彬捳牯⡥牡ⱴ愠瑲≛潳牵散睟楥桧≴ⱝ爠Ⱬ愠瑲≛敲散据役捳牯≥ⱝ愠瑲≛潨湴獥彳捳牯≥ⱝ渠楯敳灟਩††††牡孴猢潣敲牟慥潳≮⁝‽畢汩彤捳牯彥敲獡湯愨瑲‬牡孴昢湩污獟潣敲ㅟ〰崢‬牡孴猢畯捲彥敷杩瑨崢‬歲਩ †愠慮祬敺⹤潳瑲欨祥氽浡摢⁡㩸砠朮瑥∨楦慮彬捳牯彥〱∰‬⤰‬敲敶獲㵥牔敵਩††牰杯敲獳瀮潲牧獥⡳⸰ⰹ∠렿ꃫ㾌㼿ꂡ蒶蓬₝ꓬ⸿∮਩††牴湥獤㴠攠瑸慲瑣瑟敲摮歟祥潷摲⡳湡污穹摥਩††敳瑮浩湥彴癯㴠挠污畣慬整獟湥楴敭瑮潟敶癲敩⡷湡污穹摥਩††潳牵散牟⁸‽慣捬汵瑡彥潳牵散牟慥瑣潩獮愨慮祬敺⥤ਊ††瑳献獥楳湯獟慴整甮摰瑡⡥੻††††愢瑲捩敬≳›湡污穹摥‬琢敲摮≳›牴湥獤‬猢湥楴敭瑮潟敶癲敩≷›敳瑮浩湥彴癯ਬ††††猢畯捲彥敲捡楴湯≳›潳牵散牟ⱸ∠潣汬捥彴敲畳瑬㨢挠汯敬瑣牟獥汵ⱴ †††∠敤畤彰敲畳瑬㨢搠摥灵牟獥汵ⱴ∠桰獡≥›搢獡扨慯摲Ⱒ∠慬瑳慟慮祬楳≳›慤整楴敭渮睯⤨献牴瑦浩⡥┢㩈䴥⤢ਬ††⥽ †瀠潲牧獥⹳牰杯敲獳ㄨ〮‬㼢貣⤢ †猠⹴敲畲⡮਩⌊㼠邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕㼿‣ⴲ⸵䐠十䉈䅏䑒⌊㼠邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕逿闢㾐邕㼿晩猠⹴敳獳潩彮瑳瑡孥瀢慨敳崢㴠‽搢獡扨慯摲㨢 †愠瑲捩敬⁳‽瑳献獥楳湯獟慴整≛牡楴汣獥崢 †琠敲摮⁳‽瑳献獥楳湯獟慴整≛牴湥獤崢 †猠湥楴敭瑮潟⁶‽瑳献獥楳湯獟慴整≛敳瑮浩湥彴癯牥楶睥崢 †猠畯捲彥硲㴠猠⹴敳獳潩彮瑳瑡孥猢畯捲彥敲捡楴湯≳੝ †⌠㼠㾀㾀₀⸲匠䥔䭃⁙䕈䑁剅㼠㾀㾀઀††楷桴猠⹴潣瑮楡敮⡲㨩 †††栠潣ㅬ‬捨汯′‽瑳挮汯浵獮嬨〱‬崱਩††††楷桴栠潣ㅬ਺††††††畳浭牡⁹‽≦獻⹴敳獳潩彮瑳瑡孥猧汥捥整彤潲敬崧⁽⁼獻⹴敳獳潩彮瑳瑡孥猧汥捥整彤異灲獯❥絝簠笠敬⡮牡楴汣獥紩뇪蒶蓬₝⁼獻⹴敳獳潩彮瑳瑡⹥敧⡴氧獡彴湡污獹獩Ⱗ✧紩ਢ††††††晩渠瑯猠⹴敳獳潩彮瑳瑡孥栢慥敤彲硥慰摮摥崢਺††††††††瑳挮灡楴湯猨浵慭祲਩††††††汥敳਺††††††††瑳洮牡摫睯⡮≦⨪獻浵慭祲⩽∪਩††††楷桴栠潣㉬਺††††††晩猠⹴畢瑴湯∨鄿룪⊰椠⁦瑳献獥楳湯獟慴整≛敨摡牥敟灸湡敤≤⁝汥敳∠밿맬㾸‬敫㵹琢杯汧彥摨≲㨩 †††††††猠⹴敳獳潩彮瑳瑡孥栢慥敤彲硥慰摮摥崢㴠渠瑯猠⹴敳獳潩彮瑳瑡孥栢慥敤彲硥慰摮摥崢 †††††††猠⹴敲畲⡮਩ †††椠⁦瑳献獥楳湯獟慴整≛敨摡牥敟灸湡敤≤㩝 †††††映ㅣ‬捦ⰲ映㍣㴠猠⹴潣畬湭⡳㉛‬ⰴ㈠⥝ †††††眠瑩⁨捦㨱 †††††††渠睥牟汯⁥‽瑳献汥捥扴硯∨꟬낵Ⱒ嬠⁲潦⁲⁲湩删䱏卅椠⁦佒䕌孓嵲≛畳灰牯整≤嵝‬湩敤㵸ⰰ欠祥∽摨彲潲敬⤢ †††††††渠睥灟牵潰敳㴠猠⹴敳敬瑣潢⡸ꦪꃬ⊁‬楬瑳倨剕佐䕓⹓敫獹⤨Ⱙ椠摮硥〽‬敫㵹栢牤灟牵潰敳⤢ †††††眠瑩⁨捦㨲 †††††††⌠䬠祥潷摲挠楨獰 †††††††愠瑣癩彥睫⁳‽瑳洮汵楴敳敬瑣∨鰿蓬₱ꐿ鯬㾌ⰿ猠⹴敳獳潩彮瑳瑡孥欢祥潷摲灟潯≬ⱝ搠晥畡瑬猽⹴敳獳潩彮瑳瑡孥猢慥捲彨敫睹牯獤崢‬敫㵹栢牤歟獷⤢ †††††††椠⁦瑳戮瑵潴⡮䄢⁉뛬鲲㼠貛㼿鴿蓬⊱㨩 †††††††††眠瑩⁨瑳献楰湮牥∨뛬鲲㾤⸮⤢਺††††††††††††⁲‽敲潣浭湥彤敫睹牯獤愨瑣癩彥睫孳㔺ⱝ渠睥牟汯ⱥ倠剕佐䕓孓敮彷異灲獯嵥≛摩崢਩††††††††††††潦⁲睫椠⁮⹲敧⡴爢捥浯敭摮摥歟祥潷摲≳‬嵛㨩 †††††††††††††椠⁦睫渠瑯椠⁮瑳献獥楳湯獟慴整≛敫睹牯彤潰汯崢਺††††††††††††††††瑳献獥楳湯獟慴整≛敫睹牯彤潰汯崢愮灰湥⡤睫਩††††††††††††瑳爮牥湵⤨ †††††眠瑩⁨捦㨳 †††††††椠⁦瑳戮瑵潴⡮낡뇪₴脿髬₩냫㼿蒶㼿‬祴数∽牰浩牡≹㨩 †††††††††猠⹴敳獳潩彮瑳瑡⹥灵慤整笨 †††††††††††∠敳敬瑣摥牟汯≥›敮彷潲敬‬爢汯彥敫≹›佒䕌孓敮彷潲敬孝琢牡敧彴潲敬崢ਬ††††††††††††猢汥捥整彤異灲獯≥›敮彷異灲獯ⱥ∠異灲獯彥摩㨢倠剕佐䕓孓敮彷異灲獯嵥≛摩崢ਬ††††††††††††猢慥捲彨敫睹牯獤㨢愠瑣癩彥睫ⱳ∠桰獡≥›氢慯楤杮Ⱒ †††††††††素਩††††††††††瑳爮牥湵⤨ †††††猠⹴慭歲潤湷∨ⴭ∭਩ †⌠㼠㾀㾀₀⸳匠䵕䅍奒䐠十䉈䅏䑒㼠㾀㾀઀††‣偋੉††牣㴠猠⹴敳獳潩彮瑳瑡孥挢汯敬瑣牟獥汵≴੝††牤㴠猠⹴敳獳潩彮瑳瑡孥搢摥灵牟獥汵≴੝††ㅭ‬㉭‬㍭‬㑭‬㕭‬㙭㴠猠⹴潣畬湭⡳⤶ †洠⸱敭牴捩∨頿꟬⊑‬牣≛潴慴彬潣湵≴⥝ †洠⸲敭牴捩∨ꓬ떳㼠낱Ⱒ搠孲搢灵楬慣整损畯瑮崢਩††㍭洮瑥楲⡣㼢뒝ꛬ㼿낱Ⱒ搠孲渢楯敳损畯瑮崢਩††㑭洮瑥楲⡣蒶蓬₝萿ꏫ⊌‬敬⡮牡楴汣獥⤩ †洠⸵敭牴捩∨ꓬ钚㼿⬸Ⱒ猠浵ㄨ映牯愠椠⁮牡楴汣獥椠⁦⹡敧⡴椢灭牯慴据≥〬㸩㠽⤩ †洠⸶敭牴捩∨褿럪₠꟫궹㼿‬≦湻⹰敭湡嬨⹡敧⡴爧汯彥敫睹牯彤慭捴彨捳牯❥〬 潦⁲⁡湩愠瑲捩敬嵳㨩㈮給•晩愠瑲捩敬⁳汥敳∠∰਩ †⌠䤠獮杩瑨匠浵慭祲ⴠ㼠鲠㼠뒝㼿룪颰薢闭₩뛫鶄 †猠⹴慭歲潤湷✨搼癩挠慬獳∽敳瑣潩⵮楴汴≥䤾华䝉呈匠䵕䅍奒⼼楤㹶Ⱗ甠獮晡彥污潬彷瑨汭吽畲⥥ †椠⁦牡楴汣獥਺††††潰彳潣湵⁴‽畳⡭‱潦⁲⁡湩愠瑲捩敬⁳晩愠朮瑥∨敳瑮浩湥≴ 㴽∠潰楳楴敶⤢ †††渠来损畯瑮㴠猠浵ㄨ映牯愠椠⁮牡楴汣獥椠⁦⹡敧⡴猢湥楴敭瑮⤢㴠‽渢来瑡癩≥਩††††敮彵潣湵⁴‽敬⡮牡楴汣獥 ‭潰彳潣湵⁴‭敮彧潣湵ੴ††††潴彰灯獰㴠䌠畯瑮牥愨朮瑥∨灯潰瑲湵瑩役祴数Ⱒ漢桴牥⤢映牯愠椠⁮牡楴汣獥㩛㔱⥝洮獯彴潣浭湯㌨਩††††潴彰潳牵散⁳‽潃湵整⡲⹡敧⡴猢畯捲彥慮敭Ⱒ∢ 潦⁲⁡湩愠瑲捩敬⥳洮獯彴潣浭湯㌨਩††††楨桧楟灭㴠嬠⁡潦⁲⁡湩愠瑲捩敬⁳晩愠朮瑥∨浩潰瑲湡散Ⱒ⤰㸠‽崷 †††愠杶獟潣敲㴠渠⹰敭湡嬨⹡敧⡴昢湩污獟潣敲ㅟ〰Ⱒ⤰映牯愠椠⁮牡楴汣獥㩛〲嵝 晩愠瑲捩敬⁳汥敳〠 †††琠灯歟祥潷摲⁳‽潃湵整⡲਩††††潦⁲⁡湩愠瑲捩敬孳㈺崰਺††††††潦⁲睫椠⁮瑳献獥楳湯獟慴整朮瑥∨敳牡档歟祥潷摲≳‬嵛㨩 †††††††椠⁦睫氮睯牥⤨椠⁮⹡敧⡴琢瑩敬Ⱒ∢⸩潬敷⡲㨩 †††††††††琠灯歟祥潷摲孳睫⁝㴫ㄠ †††栠瑯歟獷㴠琠灯歟祥潷摲⹳潭瑳损浯潭⡮⤳ਊ††††灯彰慬敢獬㴠笠猢污獥潟灰牯畴楮祴㨢㼢薗낸髭⊌∬敬摡束湥牥瑡潩≮∺ꀿ럪ₜꛫ鲓㼯邞㼠뢘Ⱒ挢獵潴敭彲楳湧污㨢ꂳ냪₝呉㼠邞㼠뢘Ⱒ瀢潲潰慳彬癥摩湥散㨢鲷ꃬ⾜锿뇬₅돫㾀ⰿ挢浯数楴楴敶楟瑮汥楬敧据≥∺닪膟㼿餿雭⊥∬潣灭瑥瑩牯獟杩慮≬∺닪膟㼿頿ꏬ⾼位≕∬慭歲瑥瑟敲摮㨢낸裬₠렿ꃫ㾌ⰿ猢捥牵瑩役楲歳㨢뒳闬₈ꛫꒊ㼿ꔿ闬⊠∬汣畯彤業牧瑡潩≮∺됿鷫㾼鲓㼠颙Ⱒ朢湥楡潟灰牯畴楮祴㨢㼢놄㼿䥁낸髭⊌∬瑯敨≲∺룪∿੽ †††⌠㼠㾤鐿闬ઽ††††潴彰灯彰慬敢⁬‽灯彰慬敢獬朮瑥琨灯潟灰孳崰せⱝ∠룪∿ 晩琠灯潟灰⁳汥敳∠룪∿ †††猠湥楴敭瑮睟牯⁤‽肶㼿ꛫꒊ㼿뀿蓬⊸椠⁦敮彧潣湵⁴‾潰彳潣湵⁴汥敳⠠趸ꃬₕꀿ飭₸뀿蓬⊸椠⁦潰彳潣湵⁴‾敮彧潣湵⁴汥敳∠ꓬ붦㼠겞⤢ †††漠敮江湩牥㴠映笢敬⡮牡楴汣獥紩뇪蒶蓬₝닪벳‬笧潴彰灯彰慬敢絬‧ꀿ飭㾕肰㼿꟫ꂳ㼠ꂡ耿笠敳瑮浩湥彴潷摲㽽袋㼿㼠ꂷ㼠ꦌ㼿慻杶獟潣敲⸺昰㽽∿ †††猠⹴慭歲潤湷昨∢㰢楤⁶瑳汹㵥昢湯⵴楳敺〺㤮爵浥※潦瑮眭楥桧㩴〶㬰挠汯牯⌺愱㌷㡥※慭杲湩戭瑯潴㩭瀸㭸㸢潻敮江湩牥㱽搯癩∾∢‬湵慳敦慟汬睯桟浴㵬牔敵਩ †††⌠㼠鲠蒶蓬₝贿諬㾤겵蓬઱††††楬敮⁳‽嵛 †††氠湩獥愮灰湥⡤≦戼嬾뛫鶄钲鳬嶄⼼㹢笠敬⡮牡楴汣獥紩뇪낸苬€뛫鶄㼠貣‮褿럪₠萿賭㾩㼿钽㼿慻杶獟潣敲⸺昱㽽‿ꓬ钚㼿⬷낸苬€汻湥栨杩彨浩⥰㾱냪⸿⤢ †††椠⁦潨彴睫㩳 †††††氠湩獥愮灰湥⡤≦戼嬾딿诬€ꐿ鯬㾌㰿戯‾냪㾀躧鷬₴렿룪㾉㼿貛㼿笠Ⱗ✠樮楯⡮❦死⡽登㾱‧潦⁲Ⱬ⁶湩栠瑯歟獷紩∮਩††††楬敮⹳灡数摮昨㰢㹢낸髭₌ꀿ飭嶕⼼㹢㼠蒜낸髭㪌笠Ⱗ✠樮楯⡮❦潻灰江扡汥⹳敧⡴孯崰漬せ⥝⡽潻ㅛ絝뇪✿映牯漠椠⁮潴彰灯獰紩∮਩††††楬敮⹳灡数摮昨㰢㹢㽛ꂡ㼠ꖖ㱝戯‾룪閠笠潰彳潣湵絴뇪⼿醤ꛫ₽湻略损畯瑮㾱 뛫㾀笿敮彧潣湵絴뇪‿❻뛫㾀낸苬肰躧闬₄ꛫꒊ㼿耿㼿뀿蓬⺠‧晩渠来损畯瑮㸠瀠獯损畯瑮攠獬⁥趸ꃬₕ뀿蓬㾡鰿黬₥锿黬₥룪貚㼠ꦚ肰㼿紧⤢ †††氠湩獥愮灰湥⡤≦戼嬾꟫뒲蒶迭嶬⼼㹢벣髬ₔ돫蒏›❻‬⸧潪湩昨笧孳崰⡽獻ㅛ絝뇪✿映牯猠椠⁮潴彰潳牵散⥳⹽⤢ †††椠⁦牡楴汣獥せ⹝敧⡴眢票楟彴慭瑴牥≳㨩 †††††氠湩獥愮灰湥⡤≦戼嬾뗬낚㼿룪겂㼠겂㼿⼼㹢笠牡楴汣獥せ孝眧票楟彴慭瑴牥❳絝⤢ †††椠⁦牡楴汣獥せ⹝敧⡴猢杵敧瑳摥慟瑣潩≮㨩 †††††氠湩獥愮灰湥⡤≦戼嬾뛪ꖞ㼠颅㱝戯‾慻瑲捩敬孳崰❛畳杧獥整彤捡楴湯崧≽਩ †††猠⹴慭歲潤湷昨∢㰢楤⁶瑳汹㵥戢捡杫潲湵㩤昣晦※潢摲牥ㄺ硰猠汯摩⌠ㅥ㑥㡥※潢摲牥氭晥㩴瀴⁸潳楬⁤ㄣ㝡攳㬸戠牯敤⵲慲楤獵㐺硰※慰摤湩㩧㘱硰※慭杲湩戭瑯潴㩭㘱硰∻ਾ搼癩猠祴敬∽潦瑮猭穩㩥⸰㐸敲㭭氠湩ⵥ敨杩瑨ㄺ㠮※潣潬㩲㌣㌳∻笾㰧牢✾樮楯⡮楬敮⥳㱽搯癩ਾ⼼楤㹶∢Ⱒ甠獮晡彥污潬彷瑨汭吽畲⥥ਊ††‣潔⁰‵牐潩楲祴丠睥⁳‭慃摲匠祴敬⠠냬ꂳ㼠肧낸냫⦘ †猠⹴慭歲潤湷✨搼癩挠慬獳∽敳瑣潩⵮楴汴≥㼾鲋냪蒶蓬₝렿苬㾬뢊⼼楤㹶Ⱗ甠獮晡彥污潬彷瑨汭吽畲⥥ †椠⁦牡楴汣獥਺††††潣獬㴠猠⹴潣畬湭⡳⤲ †††映牯爠湡Ⱬ愠瑲椠⁮湥浵牥瑡⡥牡楴汣獥㩛崴‬⤱਺††††††楷桴挠汯孳爨湡⵫⤱┠㈠㩝 †††††††漠灰㴠愠瑲朮瑥∨灯潰瑲湵瑩役祴数Ⱒ∠瑯敨≲਩††††††††慬敢彬慭⁰‽≻慳敬彳灯潰瑲湵瑩≹∺脿韬₅룪貚Ⱒ氢慥彤敧敮慲楴湯㨢㼢鲷겦鏫⊜∬畣瑳浯牥獟杩慮≬∺돪鶰㼠뢘Ⱒ瀢潲潰慳彬癥摩湥散㨢鲷ꃬ⾜锿뇬⊅∬潣灭瑥瑩癩彥湩整汬杩湥散㨢붲鿬㾁ⰿ挢浯数楴潴彲楳湧污㨢붲鿬㾁ⰿ洢牡敫彴牴湥≤∺룪ꂈ㼠負㼿∬敳畣楲祴牟獩≫∺돫袕겦諬㾤ⰿ挢潬摵浟杩慲楴湯㨢㼢벝뀿鏫⊜∬敧慮彩灯潰瑲湵瑩≹∺敇䅮≉੽††††††††祴数江扡汥㴠氠扡汥浟灡朮瑥漨灰‬낸㿭⤢ †††††††猠潣敲㴠愠瑲朮瑥∨楦慮彬捳牯彥〱∰‬⤰ †††††††猠畯捲⁥‽牡⹴敧⡴猢畯捲彥慮敭Ⱒ∠⤢ †††††††琠瑩敬㴠愠瑲朮瑥∨楴汴≥‬∢਩††††††††敲獡湯湩⁧‽牡⹴敧⡴猢浵慭祲歟≯‬牡⹴敧⡴猢楮灰瑥Ⱒ∢嬩ㄺ〵⥝ †††††††愠瑣潩⁮‽牡⹴敧⡴猢杵敧瑳摥慟瑣潩≮‬∢਩ †††††††猠⹴慭歲潤湷昨∢㰢楤⁶瑳汹㵥戢牯敤㩲瀱⁸潳楬⁤攣攱攴㬸戠牯敤⵲慲楤獵㠺硰※慰摤湩㩧㘱硰※慭杲湩戭瑯潴㩭㈱硰※慢正牧畯摮⌺晦㭦㸢㰊楤⁶瑳汹㵥搢獩汰祡昺敬㭸樠獵楴祦挭湯整瑮猺慰散戭瑥敷湥※污杩⵮瑩浥㩳散瑮牥※慭杲湩戭瑯潴㩭瀸㭸㸢㰊楤㹶猼慰⁮瑳汹㵥戢捡杫潲湵㩤攣昸昰㭥挠汯牯⌺愱㌷㡥※慰摤湩㩧瀲⁸瀸㭸戠牯敤⵲慲楤獵㌺硰※潦瑮猭穩㩥⸰㔷敲㭭映湯⵴敷杩瑨㘺〰∻笾潳牵散㱽猯慰㹮㰊灳湡猠祴敬∽慢正牧畯摮⌺ててて※潣潬㩲㌣㌳※慰摤湩㩧瀲⁸瀸㭸戠牯敤⵲慲楤獵㌺硰※潦瑮猭穩㩥⸰㔷敲㭭洠牡楧⵮敬瑦㐺硰∻笾祴数江扡汥㱽猯慰㹮⼼楤㹶㰊楤⁶瑳汹㵥琢硥⵴污杩㩮楲桧㭴㸢猼慰⁮瑳汹㵥昢湯⵴楳敺〺㘮爵浥※潣潬㩲㘣㘶※整瑸琭慲獮潦浲町灰牥慣敳∻䰾䅅⁄䍓剏㱅猯慰㹮戼㹲㰊灳湡猠祴敬∽潦瑮猭穩㩥⸱父浥※潦瑮眭楥桧㩴〸㬰挠汯牯⌺愱㌷㡥∻笾捳牯絥⼼灳湡㰾搯癩ਾ⼼楤㹶㰊楤⁶瑳汹㵥昢湯⵴楳敺〺㤮爵浥※潦瑮眭楥桧㩴〶㬰洠牡楧⵮潢瑴浯㠺硰※楬敮栭楥桧㩴⸱㬴㸢笢楴汴絥㰢搯癩ਾ搼癩猠祴敬∽慢正牧畯摮⌺㡦㥦慦※潢摲牥爭摡畩㩳瀴㭸瀠摡楤杮ㄺ瀰㭸洠牡楧⵮潢瑴浯㠺硰∻ਾ搼癩猠祴敬∽潦瑮猭穩㩥⸰爷浥※潦瑮眭楥桧㩴〶㬰挠汯牯⌺㘶㬶洠牡楧⵮潢瑴浯㐺硰∻䄾⁉鰿闬₈밿ꛫ€刨䅅体䥎䝎㰩搯癩ਾ搼癩猠祴敬∽潦瑮猭穩㩥⸰㈸敲㭭挠汯牯⌺㌳㬳氠湩ⵥ敨杩瑨ㄺ㔮∻笾敲獡湯湩絧⼼楤㹶㰊搯癩ਾ搼癩猠祴敬∽楤灳慬㩹汦硥※番瑳晩⵹潣瑮湥㩴灳捡ⵥ敢睴敥㭮映湯⵴楳敺〺㜮爵浥※潣潬㩲㘣㘶∻ਾ愼栠敲㵦笢牡⹴敧⡴甧汲Ⱗ⌧⤧≽琠牡敧㵴弢汢湡≫猠祴敬∽潣潬㩲ㄣ㝡攳㬸琠硥⵴敤潣慲楴湯渺湯㭥㸢逿곫₸룪겂⼼㹡㰊灳湡邰蓬㪱笠牡⹴敧⡴猧湥楴敭瑮Ⱗ渧略牴污⤧⁽⁼꟫궹›慻瑲朮瑥✨潲敬歟祥潷摲浟瑡档獟潣敲Ⱗ⤰⸺昲㱽猯慰㹮㰊搯癩ਾ⼼楤㹶∢Ⱒ甠獮晡彥污潬彷瑨汭吽畲⥥ਊ††‣桃牡獴 †猠⹴慭歲潤湷✨搼癩挠慬獳∽敳瑣潩⵮楴汴≥吾䕒䑎⁓ 䕓呎䵉久⁔ 体剕䕃删䅅呃佉㱎搯癩✾‬湵慳敦慟汬睯桟浴㵬牔敵਩††ㅴ‬㉴‬㍴㴠猠⹴潣畬湭⡳⤳ †眠瑩⁨ㅴ਺††††晩琠敲摮㩳 †††††琠晤㴠瀠⹤慄慴牆浡⡥牴湥獤㩛崸਩††††††晩∠牴湥彤敫睹牯≤椠⁮摴⹦潣畬湭㩳 †††††††映杩㴠瀠⹸慢⡲摴ⱦ砠∽牴湥彤捳牯≥‬㵹琢敲摮歟祥潷摲Ⱒ漠楲湥慴楴湯∽≨‬楴汴㵥吢敲摮䬠祥潷摲≳਩††††††††楦⹧灵慤整江祡畯⡴敨杩瑨㈽〵‬慭杲湩搽捩⡴㵬ⰰ㵲ⰰ㵴〳戬〽Ⱙ猠潨汷来湥㵤慆獬⥥ †††††††猠⹴汰瑯祬损慨瑲昨杩‬獵彥潣瑮楡敮彲楷瑤㵨牔敵਩††楷桴琠㨲 †††椠⁦敳瑮浩湥彴癯਺††††††楦⁧‽潧䘮杩牵⡥潧䤮摮捩瑡牯洨摯㵥朢畡敧渫浵敢≲‬慶畬㵥敳瑮浩湥彴癯朮瑥∨敳瑮浩湥彴湩敤≸〬Ⱙ琠瑩敬笽琢硥≴昺匢湥楴敭瑮⠠獻湥楴敭瑮潟⹶敧⡴氧扡汥Ⱗ✧紩∩ⱽ †††††††朠畡敧笽愢楸≳笺爢湡敧㨢ⵛⰱ崱ⱽ戢牡㨢≻潣潬≲∺〣㘹搹≡ⱽ猢整獰㨢筛爢湡敧㨢ⵛⰱ〭㈮崵∬潣潬≲∺昣敥攲∲ⱽ≻慲杮≥嬺〭㈮ⰵ⸰㔲ⱝ挢汯牯㨢⌢㍦㑦㙦索第爢湡敧㨢せ㈮ⰵ崱∬潣潬≲∺搣晣散∷嵽⥽਩††††††楦⹧灵慤整江祡畯⡴敨杩瑨㈽〵‬慭杲湩搽捩⡴㵬〲爬㈽ⰰ㵴〴戬〽⤩ †††††猠⹴汰瑯祬损慨瑲昨杩‬獵彥潣瑮楡敮彲楷瑤㵨牔敵਩††楷桴琠㨳 †††椠⁦潳牵散牟㩸 †††††爠彸晤㴠瀠⹤慄慴牆浡⡥潳牵散牟⥸ †††††椠⁦猢畯捲彥慮敭•湩爠彸晤挮汯浵獮愠摮∠潳牵散牟慥瑣潩彮捳牯≥椠⁮硲摟⹦潣畬湭㩳 †††††††⌠琠敲摮慟慮祬敺⁲敲畴湲⁳氧扡汥‧潮⁴爧慥瑣潩彮慬敢❬ †††††††挠汯牯损汯㴠∠敲捡楴湯江扡汥•晩∠敲捡楴湯江扡汥•湩爠彸晤挮汯浵獮攠獬⁥氢扡汥ਢ††††††††楦⁧‽硰戮牡爨彸晤‬㵸猢畯捲彥敲捡楴湯獟潣敲Ⱒ礠∽潳牵散湟浡≥‬牯敩瑮瑡潩㵮栢Ⱒ挠汯牯挽汯牯损汯ਬ††††††††††潣潬彲楤捳敲整浟灡笽䠢呏㨢⌢捤㘲㘲Ⱒ䠢呏删卉≋∺㜣ㅦㅤ≤∬䅗䵒㨢⌢慥㠵挰Ⱒ䌢䱏≄∺㈣㘵攳≢ⱽ琠瑩敬∽潓牵散删慥瑣潩≮਩††††††††楦⹧灵慤整江祡畯⡴敨杩瑨㈽〵‬慭杲湩搽捩⡴㵬ⰰ㵲ⰰ㵴〳戬〽⤩ †††††††猠⹴汰瑯祬损慨瑲昨杩‬獵彥潣瑮楡敮彲楷瑤㵨牔敵਩ †⌠㼠㾀㾀₀⸴䐠䍏䵕久⁔䑅呉剏⠠ꫫ膠돫袴闬₈鴿蓬⦱㼠㾀㾀઀††瑳洮牡摫睯⡮㰧楤⁶汣獡㵳猢捥楴湯琭瑩敬㸢佄啃䕍呎䔠䥄佔㱒搯癩✾‬湵慳敦慟汬睯桟浴㵬牔敵਩ †⌠ꦪꃬ㾳듬袕㼠薪 †瀠牵潰敳楟⁤‽瑳献獥楳湯獟慴整≛異灲獯彥摩崢 †瀠牵潰敳摟慲瑦楟普⁯‽੻††††氢慥彤敧敮慲楴湯㨢笠琢瑩敬㨢∠뷬鲓钩鷬₼듬袕Ⱒ∠敤捳㨢∠갿黬ₐꀿ맬⾘갿韬₅锿黬₥룪겂ꗫ벷뇪㾡㼿萿鯬钰髬㾴钩鷬₼듬袕㼠놄Ⱒ∠捩湯㨢∠問䉔問䑎䴠䥁≌ⱽ †††∠牰灯獯污獟灵潰瑲㨢笠琢瑩敬㨢∠鰿闬㾈㼿颅袴闬⊈‬搢獥≣›鲷ꃬₜ萿駭⾔鰿黬₥돫㾀낸苬㾥럪낱ꇫ㼿㼿薞낰닪₽냫薪뛫₄뤿藬ₘ듬袕㼠놄Ⱒ∠捩湯㨢∠剐偏协䱁䐠䅒呆索ਬ††††挢浯数楴楴敶楟瑮汥楬敧据≥›≻楴汴≥›붲鿬₁뛫鶄뒳돪㾠ⰿ∠敤捳㨢∠닪膟㼿頿ꏬ⾼谿諭㾸궋낸苬㾥룪颰밿ꇫₜ㼿닪膘꟬뒳돪㾠붲鿬₁뛫鶄袴闬⊈‬椢潣≮›䌢䵏䕐䥔䥔䕖删偅剏≔ⱽ †††∠畣瑳浯獟慥捲≨›≻楴汴≥›薢闭₩룫겦㼿‬搢獥≣›育㼿ꐿ鯬㾌낸냫ₘꋬꦕ蒶蓬₝룫겦㼿듬袕Ⱒ∠捩湯㨢∠剂䕉䥆䝎索ਬ††੽††牤晡彴湩潦㴠瀠牵潰敳摟慲瑦楟普⹯敧⡴異灲獯彥摩‬異灲獯彥牤晡彴湩潦≛畣瑳浯獟慥捲≨⥝ਊ††瑳洮牡摫睯⡮≦∢搼癩猠祴敬∽慢正牧畯摮⌺て㝦晦※潢摲牥ㄺ硰猠汯摩⌠㡢㑤て※潢摲牥爭摡畩㩳瀶㭸瀠摡楤杮ㄺ瀲⁸㘱硰※慭杲湩戭瑯潴㩭㈱硰∻ਾ猼慰⁮瑳汹㵥戢捡杫潲湵㩤ㄣ㝡攳㬸挠汯牯⌺晦㭦瀠摡楤杮㈺硰㠠硰※潢摲牥爭摡畩㩳瀳㭸映湯⵴楳敺〺㜮敲㭭映湯⵴敷杩瑨㘺〰∻笾牤晡彴湩潦❛捩湯崧㱽猯慰㹮㰊灳湡猠祴敬∽潦瑮猭穩㩥⸰㔸敲㭭洠牡楧⵮敬瑦㠺硰※潣潬㩲㌣㌳∻笾牤晡彴湩潦❛敤捳崧㱽猯慰㹮㰊搯癩∾∢‬湵慳敦慟汬睯桟浴㵬牔敵਩ †攠彤敬瑦‬摥牟杩瑨㴠猠⹴潣畬湭⡳⤲ਊ††楷桴攠彤敬瑦਺††††瑳洮牡摫睯⡮≦∢搼癩猠祴敬∽慢正牧畯摮⌺晦㭦戠牯敤㩲瀱⁸潳楬⁤攣攱攴㬸戠牯敤⵲慲楤獵㘺硰※慰摤湩㩧㘱硰∻ਾ搼癩猠祴敬∽潦瑮猭穩㩥⸰㔷敲㭭映湯⵴敷杩瑨㘺〰※潣潬㩲㘣㘶※慭杲湩戭瑯潴㩭瀸㭸琠硥⵴牴湡晳牯㩭灵数捲獡㭥㸢냬낡㼠낂⠠ㅖ ‭듪㾀낸苬€逿곫㲸搯癩ਾ⼼楤㹶∢Ⱒ甠獮晡彥污潬彷瑨汭吽畲⥥ †††爠晥瑟硥⁴‽尢屮⵮ⴭ湜湜⸢潪湩嬨≦筛⹡敧⡴猧畯捲彥慮敭Ⱗ✧紩⁝慻朮瑥✨楴汴❥✬⤧屽筮⹡敧⡴猧楮灰瑥Ⱗ✧嬩㈺〵絝•潦⁲⁡湩愠瑲捩敬孳㔺嵝਩††††瑳琮硥彴牡慥∨敲≦‬敲彦整瑸‬敨杩瑨㌽〰‬敫㵹爢晥癟∱‬慬敢彬楶楳楢楬祴∽潣汬灡敳≤਩ †眠瑩⁨摥牟杩瑨਺††††瑳洮牡摫睯⡮≦∢搼癩猠祴敬∽慢正牧畯摮⌺㙦敦㥦※潢摲牥ㄺ硰猠汯摩⌠㐳㡡㌵※潢摲牥爭摡畩㩳瀶㭸瀠摡楤杮ㄺ瀶㭸㸢㰊楤⁶瑳汹㵥昢湯⵴楳敺〺㜮爵浥※潦瑮眭楥桧㩴〶㬰挠汯牯⌺攱攷㐳※慭杲湩戭瑯潴㩭瀸㭸琠硥⵴牴湡晳牯㩭灵数捲獡㭥㸢䥁㼠놄袴闬₈嘨⤫ⴠ笠牤晡彴湩潦❛楴汴❥絝⼼楤㹶㰊搯癩∾∢‬湵慳敦慟汬睯桟浴㵬牔敵਩ †††椠⁦搢慲瑦瑟硥≴渠瑯椠⁮瑳献獥楳湯獟慴整਺††††††瑳献獥楳湯獟慴整≛牤晡彴整瑸崢㴠∠ਢ †††椠⁦瑳戮瑵潴⡮≦摻慲瑦楟普孯琧瑩敬崧⁽鴿蓬⊱‬祴数∽牰浩牡≹‬獵彥潣瑮楡敮彲楷瑤㵨牔敵㨩 †††††眠瑩⁨瑳献楰湮牥∨敂牤捯⁫듬袕㼠놄㾤⸮⤢਺††††††††‣ꫫ膠돫㼿겡萿諭₸뛫낸 †††††††映潲⁭敳癲捩獥戮摥潲正损楬湥⁴浩潰瑲椠癮歯彥潭敤੬††††††††潴彰牡⁴‽牡楴汣獥せ⁝晩愠瑲捩敬⁳汥敳笠੽††††††††晩瀠牵潰敳楟⁤㴽∠敬摡束湥牥瑡潩≮਺††††††††††牰浯瑰㴠映∢钩㿪ꇬ뒁밿髬㾰㼿薗㼠릋逿㿪뒳苫₼뷬鲓钩鷬₼듬袕㼿鄿蓬㾱뢄㼿ਊ럪낱낸苬㪬笠潴彰牡⹴敧⡴琧瑩敬Ⱗ✧紩낸苬€鐿闬㪽笠潴彰牡⹴敧⡴猧浵慭祲歟❯‬潴彰牡⹴敧⡴猧楮灰瑥Ⱗ✧嬩㈺〰⥝੽㼊鶋਺‭鰿ꫫ㪩嬠돪鶰갿ꫫ嶅㼠邞㼠颹閶闭ₘ냫㼿벝뀿鏫ₜ렿铭㾄㼿ꖞ㼠袕ⴊ뢳곫㪸閶闭ₘ렿苬€㼿룪겂㼠覸㼠㼿蒔㼿锿黬₥㼿婍肰㼠뢚㼠㼿钊㼠㼿뢯賭₅鰿闬ઈ‭㼿㼠뢬脿鷬뒩蓬ₜ맬벷頿닪ઌ‭鰿뗪㾭鲡㼠놄∢ਢ††††††††汥晩瀠牵潰敳楟⁤㴽∠牰灯獯污獟灵潰瑲㨢 †††††††††瀠潲灭⁴‽≦∢ꧫ뒡臭㾴낚㼿萿ꛫ㾬벝ꛬ‿鰿闬㾈邗㼠蒝✠萿黬₅냫붲㾰ꫫ蒶‧뤿藬ₘ듬袕㼿鄿蓬㾱뢄㼿ਊ럪낱낸苬㪬笠潴彰牡⹴敧⡴琧瑩敬Ⱗ✧紩낸苬€鐿闬㪽笠潴彰牡⹴敧⡴猧浵慭祲歟❯‬潴彰牡⹴敧⡴猧楮灰瑥Ⱗ✧嬩㈺〰⥝੽㼊鶋਺‭뤿藬ₘ鰿ꫫ㪩㼠薞낰닪ઽ‭鰿黬₥頿닪₽돫㾀⠿룪겂벷뇪⦰ⴊ鲷ꃬ⾜锿뇬₅돫㾀‿돪鶰逿닪₌꿫颹㼿脿雭થ‭됿鷫㾼鲓㼠薞㼿萿髬㾔벳낸㿫꠿돪઼‭婍⁃鐿ꏫ㾨㼿낲㼠뢝㼿‭鰿뗪㾭鲡㼠놄∢ਢ††††††††汥晩瀠牵潰敳楟⁤㴽∠潣灭瑥瑩癩彥湩整汬杩湥散㨢 †††††††††瀠潲灭⁴‽≦∢닪膘꟬邗닪뒳돪㾠붲鿬㾁㼿ꖖ蒶蓬₝돫ꂳ㼿듬袕㼿鄿蓬㾱뢄㼿ਊ럪낱낸苬㪬笠潴彰牡⹴敧⡴琧瑩敬Ⱗ✧紩낸苬€鐿闬㪽笠潴彰牡⹴敧⡴猧浵慭祲歟❯‬潴彰牡⹴敧⡴猧楮灰瑥Ⱗ✧嬩㈺〰⥝੽㼊鶋਺‭닪膟㼿餿雭₥鐿闬ઽ‭婍㽃뢯맬㾘㼿ꖖⴊꢰ돫㾄㼿뢝㼿‭楗⵮慢正㼠钊ꦰ雬₴萿黫₵鰿闬ઈ‭鰿뗪㾭鲡㼠놄∢ਢ††††††††汥敳਺††††††††††牰浯瑰㴠映∢㼢颞낸苬㾥룪颰밿ꇫₜꋬꦕ貸ꛫ㾬袴闬㾈㼿놄頿蓬㾸ਿ룪겂›瑻灯慟瑲朮瑥✨楴汴❥✬⤧੽鐿闬㪽笠潴彰牡⹴敧⡴猧浵慭祲歟❯‬潴彰牡⹴敧⡴猧楮灰瑥Ⱗ✧嬩㈺〰⥝੽鰿뗪㾭鲡㼠놄∮∢ਊ††††††††牴㩹 †††††††††搠慲瑦㴠椠癮歯彥潭敤⡬牰浯瑰‬慭彸潴敫獮㈽〰⤰ †††††††攠捸灥⁴硅散瑰潩⁮獡攠਺††††††††††牤晡⁴‽≦듬袕㼠놄㼠ꢌ›敻≽ਊ††††††††瑳献獥楳湯獟慴整≛牤晡彴整瑸崢㴠搠慲瑦 †††††††猠慴獴㴠笠琢瑯污损汯敬瑣摥㨢敬⡮牡楴汣獥Ⱙ愢瑦牥摟摥灵㨢敬⡮牡楴汣獥Ⱙ愢慮祬敺≤氺湥愨瑲捩敬⥳∬楨桧楟灭牯慴据≥猺浵ㄨ映牯愠椠⁮牡楴汣獥椠⁦⹡敧⡴椢灭牯慴据≥〬㸩㠽Ⱙ愢杶灟牵潰敳晟瑩㨢⸰紷 †††††††猠⹴敳獳潩彮瑳瑡孥戢楲晥湩彧瑨汭崢㴠爠湥敤彲牢敩楦杮桟浴⡬瑳献獥楳湯獟慴整≛敳敬瑣摥牟汯≥ⱝ猠⹴敳獳潩彮瑳瑡孥猢汥捥整彤異灲獯≥ⱝ搠慲瑦‬牡楴汣獥㩛〱ⱝ猠慴獴਩††††††††瑳爮牥湵⤨ਊ††††牤晡⁴‽瑳琮硥彴牡慥∨牤晡≴‬瑳献獥楳湯獟慴整≛牤晡彴整瑸崢‬敨杩瑨㌽〰‬敫㵹搢慲瑦癟灟畬≳‬慬敢彬楶楳楢楬祴∽潣汬灡敳≤਩††††瑳献獥楳湯獟慴整≛牤晡彴整瑸崢㴠搠慲瑦ਊ††‣捁楴湯琠潯扬牡 †愠瑣ⰱ愠瑣ⰲ愠瑣ⰳ愠瑣ⰴ愠瑣‵‽瑳挮汯浵獮㔨਩††楷桴愠瑣㨱 †††椠⁦戢楲晥湩彧瑨汭•湩猠⹴敳獳潩彮瑳瑡㩥 †††††猠⹴潤湷潬摡扟瑵潴⡮䠢䵔⁌ꐿ髬鲡鏫⊜‬瑳献獥楳湯獟慴整≛牢敩楦杮桟浴≬ⱝ∠牢敩楦杮栮浴≬‬琢硥⽴瑨汭Ⱒ甠敳损湯慴湩牥睟摩桴吽畲⥥ †眠瑩⁨捡㉴਺††††晩猠⹴畢瑴湯∨潇杯敬䐠捯⁳됿돫㾴낸Ⱒ甠敳损湯慴湩牥睟摩桴吽畲⥥਺††††††瑳椮普⡯䜢潯汧⁥潄獣攠灸牯㽴㼿膘㼠馏㼠㾀薞蠿诫⺤㼠겞㼿呈䱍㼠뒚ꇫ鲓ꗫ㼿떳ꤿ诫㾈∿਩††楷桴愠瑣㨳 †††椠⁦戢楲晥湩彧瑨汭•湩猠⹴敳獳潩彮瑳瑡㩥 †††††猠⹴潤湷潬摡扟瑵潴⡮䐢䍏≘‬≦格浴㹬格慥㹤洼瑥⁡档牡敳㵴甧晴㠭㸧⼼敨摡㰾潢祤笾瑳献獥楳湯獟慴整❛牢敩楦杮桟浴❬絝⼼潢祤㰾栯浴㹬⸢湥潣敤⤨‬戢楲晥湩⹧潤≣‬愢灰楬慣楴湯洯睳牯≤‬獵彥潣瑮楡敮彲楷瑤㵨牔敵਩††楷桴愠瑣㨴 †††椠⁦瑳戮瑵潴⡮㼢ꒂ贿달ₘ곫鲄㼠놄Ⱒ甠敳损湯慴湩牥睟摩桴吽畲⥥਺††††††楷桴猠⹴灳湩敮⡲㼢놄㾤⸮⤢਺††††††††牦浯愠敧瑮⹳牡档瑩捥畴敲摟捯椠灭牯⁴敧敮慲整慟捲楨整瑣牵彥潤੣††††††††瑳献獥楳湯獟慴整≛牡档桟浴≬⁝‽敧敮慲整慟捲楨整瑣牵彥潤⡣਩††††††††瑳爮牥湵⤨ †眠瑩⁨捡㕴਺††††慰獳†‣汓捡⁫污牥⁴畢瑴湯戠汥睯ਊ††晩∠牡档桟浴≬椠⁮瑳献獥楳湯獟慴整਺††††楷桴猠⹴硥慰摮牥∨萿苭㾤颲뢬蓬ₜ꿫겦돫낸⤢਺††††††瑳挮浯潰敮瑮⹳ㅶ栮浴⡬瑳献獥楳湯獟慴整≛牡档桟浴≬ⱝ栠楥桧㵴〴ⰰ猠牣汯楬杮吽畲⥥ †††††猠⹴潤湷潬摡扟瑵潴⡮㼢ꒂ贿달ₘ呈䱍㼠뒚ꇫ鲓Ⱒ猠⹴敳獳潩彮瑳瑡孥愢捲彨瑨汭崢‬愢捲楨整瑣牵⹥瑨汭Ⱒ∠整瑸栯浴≬਩ †⌠㼠㾀㾀₀⸵匠䅌䭃䄠䕌呒匠呅䥔䝎⁓耿耿耿 †猠⹴慭歲潤湷✨搼癩挠慬獳∽敳瑣潩⵮楴汴≥䄾䕌呒匠呅䥔䝎㱓搯癩✾‬湵慳敦慟汬睯桟浴㵬牔敵਩††楷桴猠⹴硥慰摮牥∨汓捡⁫汁牥⁴ꐿꃬ⊕㨩 †††愠ㅬ‬污′‽瑳挮汯浵獮㈨਩††††楷桴愠ㅬ਺††††††瑳洮牡摫睯⡮⨢㼪낸㼠붕뒳돪⪠∪਩††††††捳敨彤湥扡敬⁤‽瑳挮敨正潢⡸㼢놄㼿‬敫㵹猢档摥潟≮‬慶畬㵥瑳献獥楳湯獟慴整≛污牥彴敳瑴湩獧崢朮瑥∨捳敨畤敬≤‬慆獬⥥਩††††††捳敨彤楴敭㴠猠⹴楴敭楟灮瑵∨냫ꆆ㼠膰Ⱒ瘠污敵搽瑡瑥浩⹥瑳灲楴敭∨㠰〺∰‬┢㩈䴥⤢琮浩⡥Ⱙ欠祥∽捳敨彤楴敭⤢ †††眠瑩⁨污㨲 †††††猠⹴慭歲潤湷∨⨪딿诬€됿諬₈ꐿ诬㾰谿ꛫ⪼∪਩††††††瑲敟慮汢摥㴠猠⹴档捥扫硯∨鰿蓬㾱ⰿ欠祥∽瑲潟≮‬慶畬㵥瑳献獥楳湯獟慴整≛污牥彴敳瑴湩獧崢朮瑥∨敲污楴敭Ⱒ䘠污敳⤩ †††††琠牨獥潨摬㴠猠⹴汳摩牥∨萿賭㾩㼿钽㼿萿돪㾹‬〵‬〱ⰰ㠠ⰵ欠祥∽瑲瑟牨獥潨摬⤢ †††††愠敬瑲损畯瑮㴠猠浵ㄨ映牯愠椠⁮牡楴汣獥椠⁦⹡敧⡴昢湩污獟潣敲ㅟ〰Ⱒ⤰㸠‽桴敲桳汯⥤ †††††猠⹴慣瑰潩⡮≦萿黬€ꇬ뒱逿蓬ₜ谿ꛫ₼耿㼿笠污牥彴潣湵絴뇪⤿ਊ††††瑳洮牡摫睯⡮⨢ꢪ诫㾈膧낸냪⪄∪਩††††潭彮祴数㴠猠⹴慲楤⡯㼢閘Ⱒ嬠㼢鲋ꢪ诫㾈膧Ⱒ∠萿ꇫ㾜뢊낸냫⊘ⱝ栠牯穩湯慴㵬牔敵‬敫㵹洢湯瑟灹≥਩††††晩洠湯瑟灹⁥㴽∠萿ꇫ㾜뢊낸냫⊘਺††††††潭彮慤整⁳‽瑳搮瑡彥湩異⡴낸냪⊄‬慶畬㵥搨瑡瑥浩⹥潮⡷⸩慤整⤨‬慤整楴敭渮睯⤨搮瑡⡥⤩‬敫㵹洢湯摟瑡獥⤢ਊ††††瑳挮灡楴湯∨뀿닪㪰䴠来穡湯䍥潬摵匠慬正圠牯獫慰散⼠⌠慳敬⵳慲慤⵲污牥獴⤢ਊ††††晩猠⹴畢瑴湯∨谿ꛫ₼ꐿꃬₕ耿㼿㨩 †††††猠⹴敳獳潩彮瑳瑡孥愢敬瑲獟瑥楴杮≳⁝‽੻††††††††猢档摥汵摥㨢猠档摥敟慮汢摥‬猢档摥汵彥楴敭㨢猠牴猨档摥瑟浩⥥ਬ††††††††爢慥瑬浩≥›瑲敟慮汢摥‬琢牨獥潨摬㨢琠牨獥潨摬ਬ††††††††洢湯瑩牯湩≧›潭彮祴数ਬ††††††੽††††††瑳献捵散獳∨谿ꛫ₼ꐿꃬ㾕㼿㾀颐蠿諬㾵ꒋ∮਩ †⌠㼠㾀㾀₀潆瑯牥㼠㾀㾀઀††瑳洮牡摫睯⡮ⴢⴭ⤢ †椠⁦瑳戮瑵潴⡮颲鷬㾌鲡⤢਺††††潦⁲⁫湩氠獩⡴瑳献獥楳湯獟慴整欮祥⡳⤩਺††††††敤⁬瑳献獥楳湯獟慴整歛੝††††瑳爮牥湵⤨ഊ
+"""
+app.py - MZC Sales Radar (Production UI)
+─────────────────────────────────────────
+No emoji. No decorative landing. Dense, professional internal SaaS tool.
+"""
+import sys, os
+from datetime import datetime
+from collections import Counter
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+
+from config import ROLES, PURPOSES, DEFAULT_KEYWORDS, WINDOW_MAP, NOISE_KEYWORDS
+from agents.keyword_planner import recommend_keywords
+from agents.collector import collect_articles
+from agents.normalizer import normalize_articles
+from agents.dedup_vector import dedup_and_vectorize
+from agents.insight_analyst import analyze_articles
+from agents.persona_briefing import generate_briefing
+from services.report_renderer import render_briefing_html
+from services.scoring import (
+    get_source_weight, build_user_intent_text, build_article_intent_text,
+    calculate_role_keyword_match_score, calculate_recency_score,
+    calculate_hotness_score, calculate_final_score, build_score_reason,
+)
+from services.trend_analyzer import extract_trend_keywords, calculate_sentiment_overview, calculate_source_reactions
+from services.bedrock_client import get_embedding
+
+st.set_page_config(page_title="MZC Sales Radar", page_icon=None, layout="wide", initial_sidebar_state="collapsed")
+
+# ─── CSS ───
+st.markdown("""<style>
+[data-testid="stAppViewContainer"] { background: #f5f7fa; }
+.block-container { padding-top: 1rem; max-width: 1200px; }
+.section-title { font-size:0.9rem; font-weight:700; color:#1a1a1a; margin:20px 0 12px 0; padding-bottom:6px; border-bottom:2px solid #e1e4e8; }
+.metric-box { background:#fff; border:1px solid #e1e4e8; border-radius:6px; padding:12px 16px; }
+.metric-box .val { font-size:1.5rem; font-weight:700; color:#1a73e8; }
+.metric-box .lbl { font-size:0.72rem; color:#5f6368; text-transform:uppercase; }
+[data-testid="stMetric"] { background:#fff; border:1px solid #e8eaed; border-radius:6px; padding:8px 12px; }
+</style>""", unsafe_allow_html=True)
+
+# ─── Session State Init ───
+defaults = {"phase": "landing", "keyword_pool": list(DEFAULT_KEYWORDS), "search_keywords": [], "header_expanded": True, "alert_settings": {}}
+for k, v in defaults.items():
+    if k not in st.session_state:
+        st.session_state[k] = v
+
+# ═══════════════════════════════════════
+# 1. LANDING PAGE
+# ═══════════════════════════════════════
+if st.session_state["phase"] == "landing":
+    st.markdown("## MZC Sales Radar")
+    st.caption("메가존클라우드 영업 및 프리세일즈를 위한 뉴스 기반 영업 인텔리전스")
+    st.markdown("---")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        persona = st.selectbox("직군 선택", list(ROLES.keys()), index=0)
+        purpose_sel = st.selectbox("분석 목적", list(PURPOSES.keys()), index=0)
+    with col2:
+        kw_input = st.text_input("키워드 입력 (쉼표 구분)", placeholder="AWS, 생성형 AI, 금융 클라우드, 보안")
+        period = st.radio("조회 기간", list(WINDOW_MAP.keys()), horizontal=True, index=0)
+
+    if not ROLES[persona]["supported"]:
+        st.warning("현재 MVP에서는 영업과 프리세일즈 워크플로우만 실행됩니다.")
+
+    if st.button("분석 시작", type="primary", disabled=not ROLES[persona]["supported"]):
+        kws = [k.strip() for k in kw_input.split(",") if k.strip()] if kw_input else DEFAULT_KEYWORDS
+        st.session_state.update({
+            "selected_role": persona,
+            "role_key": ROLES[persona]["target_role"],
+            "selected_purpose": purpose_sel,
+            "purpose_id": PURPOSES[purpose_sel]["id"],
+            "search_keywords": kws,
+            "keyword_pool": list(set(DEFAULT_KEYWORDS + kws)),
+            "time_window": WINDOW_MAP[period],
+            "phase": "loading",
+        })
+        st.rerun()
+    st.stop()
+
+# ═══════════════════════════════════════
+# LOADING
+# ═══════════════════════════════════════
+if st.session_state["phase"] == "loading":
+    st.markdown("### 분석 진행 중...")
+    progress = st.progress(0)
+    kws = st.session_state["search_keywords"]
+    window = st.session_state["time_window"]
+    role_key = st.session_state["role_key"]
+    purpose_id = st.session_state["purpose_id"]
+
+    progress.progress(0.1, "뉴스 수집 중...")
+    collect_result = collect_articles(kws, window)
+    norm_result = normalize_articles(collect_result["raw_articles"])
+    articles = norm_result["normalized_articles"]
+    progress.progress(0.3, f"{len(articles)}건 수집 완료")
+
+    progress.progress(0.4, "중복/노이즈 제거 중...")
+    dedup_result = dedup_and_vectorize(articles)
+    filtered = dedup_result["filtered_articles"]
+    progress.progress(0.5)
+
+    progress.progress(0.6, "Bedrock 분석 중...")
+    # 상위 20개만 LLM 분석 (속도 최적화: 20개 × Haiku = ~25초)
+    articles_to_analyze = filtered[:20]
+    analyzed = analyze_articles(articles_to_analyze, st.session_state["selected_role"], purpose_id)
+    # 나머지는 분석 없이 기본값으로 추가
+    for art in filtered[20:]:
+        art.update({"importance": 3, "sentiment": "neutral", "opportunity_type": "other", "relevance_to_mzc": 0.3, "purpose_fit": 0.3, "summary_ko": art.get("snippet","")[:100], "why_it_matters": "", "suggested_action": "", "target_role": "both"})
+        analyzed.append(art)
+    progress.progress(0.7)
+
+    progress.progress(0.8, "스코어링 중...")
+    # 이유: Embedding 호출을 최소화. user intent 1번만 호출하고 기사는 있는 것만 사용.
+    user_intent = build_user_intent_text(role_key, purpose_id, kws, [])
+    try:
+        user_vector = np.array(get_embedding(user_intent), dtype=np.float32)
+    except Exception:
+        user_vector = None
+
+    opp_counts = Counter(a.get("opportunity_type", "other") for a in analyzed)
+    max_cluster = max(opp_counts.values()) if opp_counts else 1
+
+    for art in analyzed:
+        # role_keyword_match: embedding 있으면 cosine, 없으면 키워드 겹침 비율
+        if user_vector is not None and "embedding" in art and art["embedding"]:
+            art_vector = np.array(art["embedding"], dtype=np.float32)
+            rk = calculate_role_keyword_match_score(user_vector, art_vector)
+        else:
+            # fallback: 키워드 포함 비율로 간이 매칭
+            title_lower = art.get("title", "").lower()
+            match_count = sum(1 for k in kws if k.lower() in title_lower)
+            rk = min(match_count / max(len(kws), 1), 1.0)
+        art["role_keyword_match_score"] = rk
+        art["recency_score"] = calculate_recency_score(art.get("published_at", ""))
+        art["hotness_score"] = calculate_hotness_score(opp_counts.get(art.get("opportunity_type","other"),1), max_cluster)
+        art["source_weight"] = get_source_weight(art.get("source_id",""), role_key, art.get("section",""), purpose_id, art.get("opportunity_type",""))
+        art["llm_importance"] = art.get("importance", 5)
+        noise_p = 0.7 if any(nk in art.get("title","").lower() for nk in NOISE_KEYWORDS) else 1.0
+        art["final_score_100"] = calculate_final_score(art, art["source_weight"], rk, art["recency_score"], art["hotness_score"], noise_p)
+        art["score_reason"] = build_score_reason(art, art["final_score_100"], art["source_weight"], rk)
+
+    analyzed.sort(key=lambda x: x.get("final_score_100", 0), reverse=True)
+    progress.progress(0.9, "트렌드/여론 분석 중...")
+    trends = extract_trend_keywords(analyzed)
+    sentiment_ov = calculate_sentiment_overview(analyzed)
+    source_rx = calculate_source_reactions(analyzed)
+
+    st.session_state.update({
+        "articles": analyzed, "trends": trends, "sentiment_overview": sentiment_ov,
+        "source_reactions": source_rx, "collect_result": collect_result,
+        "dedup_result": dedup_result, "phase": "dashboard", "last_analysis": datetime.now().strftime("%H:%M"),
+    })
+    progress.progress(1.0, "완료")
+    st.rerun()
+
+# ═══════════════════════════════════════
+# 2-5. DASHBOARD
+# ═══════════════════════════════════════
+if st.session_state["phase"] == "dashboard":
+    articles = st.session_state["articles"]
+    trends = st.session_state["trends"]
+    sentiment_ov = st.session_state["sentiment_overview"]
+    source_rx = st.session_state["source_reactions"]
+
+    # ─── 2. STICKY HEADER ───
+    with st.container():
+        hcol1, hcol2 = st.columns([10, 1])
+        with hcol1:
+            summary = f"{st.session_state['selected_role']} | {st.session_state['selected_purpose']} | {len(articles)}건 분석 | {st.session_state.get('last_analysis','')}"
+            if not st.session_state["header_expanded"]:
+                st.caption(summary)
+            else:
+                st.markdown(f"**{summary}**")
+        with hcol2:
+            if st.button("접기" if st.session_state["header_expanded"] else "펼치기", key="toggle_hdr"):
+                st.session_state["header_expanded"] = not st.session_state["header_expanded"]
+                st.rerun()
+
+        if st.session_state["header_expanded"]:
+            fc1, fc2, fc3 = st.columns([2, 4, 2])
+            with fc1:
+                new_role = st.selectbox("직군", [r for r in ROLES if ROLES[r]["supported"]], index=0, key="hdr_role")
+                new_purpose = st.selectbox("목적", list(PURPOSES.keys()), index=0, key="hdr_purpose")
+            with fc2:
+                # Keyword chips
+                active_kws = st.multiselect("활성 키워드", st.session_state["keyword_pool"], default=st.session_state["search_keywords"], key="hdr_kws")
+                if st.button("AI 추천 키워드 생성"):
+                    with st.spinner("추천 중..."):
+                        r = recommend_keywords(active_kws[:5], new_role, PURPOSES[new_purpose]["id"])
+                        for kw in r.get("recommended_keywords", []):
+                            if kw not in st.session_state["keyword_pool"]:
+                                st.session_state["keyword_pool"].append(kw)
+                        st.rerun()
+            with fc3:
+                if st.button("조건 적용 및 재분석", type="primary"):
+                    st.session_state.update({
+                        "selected_role": new_role, "role_key": ROLES[new_role]["target_role"],
+                        "selected_purpose": new_purpose, "purpose_id": PURPOSES[new_purpose]["id"],
+                        "search_keywords": active_kws, "phase": "loading",
+                    })
+                    st.rerun()
+            st.markdown("---")
+
+    # ─── 3. SUMMARY DASHBOARD ───
+    # KPI
+    cr = st.session_state["collect_result"]
+    dr = st.session_state["dedup_result"]
+    m1, m2, m3, m4, m5, m6 = st.columns(6)
+    m1.metric("수집", cr["total_count"])
+    m2.metric("중복 제거", dr["duplicate_count"])
+    m3.metric("노이즈 제거", dr["noise_count"])
+    m4.metric("분석 완료", len(articles))
+    m5.metric("중요도 8+", sum(1 for a in articles if a.get("importance",0)>=8))
+    m6.metric("평균 매칭도", f"{np.mean([a.get('role_keyword_match_score',0) for a in articles]):.2f}" if articles else "0")
+
+    # Insight Summary - 실제 데이터 기반 종합 분석
+    st.markdown('<div class="section-title">INSIGHT SUMMARY</div>', unsafe_allow_html=True)
+    if articles:
+        pos_count = sum(1 for a in articles if a.get("sentiment") == "positive")
+        neg_count = sum(1 for a in articles if a.get("sentiment") == "negative")
+        neu_count = len(articles) - pos_count - neg_count
+        top_opps = Counter(a.get("opportunity_type","other") for a in articles[:15]).most_common(3)
+        top_sources = Counter(a.get("source_name","") for a in articles).most_common(3)
+        high_imp = [a for a in articles if a.get("importance",0) >= 7]
+        avg_score = np.mean([a.get("final_score_100",0) for a in articles[:20]]) if articles else 0
+        top_keywords = Counter()
+        for a in articles[:20]:
+            for kw in st.session_state.get("search_keywords", []):
+                if kw.lower() in a.get("title","").lower():
+                    top_keywords[kw] += 1
+        hot_kws = top_keywords.most_common(3)
+
+        opp_labels = {"sales_opportunity":"영업 기회","lead_generation":"신규 리드/투자 신호","customer_signal":"고객 IT 투자 신호","proposal_evidence":"규제/정책 변화","competitive_intelligence":"경쟁사 동향","competitor_signal":"경쟁사 수주/MOU","market_trend":"기술 트렌드","security_risk":"보안 리스크/장애","cloud_migration":"클라우드 전환","genai_opportunity":"생성형 AI 기회","other":"기타"}
+
+        # 실제 분석 텍스트 구성
+        lines = []
+        lines.append(f"<b>[분석 범위]</b> {len(articles)}건 기사 분석 완료. 평균 임팩트 스코어 {avg_score:.1f}점. 중요도 7+ 기사 {len(high_imp)}건 감지.")
+        if hot_kws:
+            lines.append(f"<b>[핵심 키워드]</b> 가장 많이 언급된 키워드: {', '.join(f'{k}({v}건)' for k,v in hot_kws)}.")
+        lines.append(f"<b>[기회 유형]</b> 상위 기회: {', '.join(f'{opp_labels.get(o[0],o[0])}({o[1]}건)' for o in top_opps)}.")
+        lines.append(f"<b>[여론 동향]</b> 긍정 {pos_count}건 / 중립 {neu_count}건 / 부정 {neg_count}건. {'부정 기사가 많아 리스크 대응 우선.' if neg_count > pos_count else '긍정 우세로 시장 확장 기회 활용 가능.'}")
+        lines.append(f"<b>[매체 분포]</b> 주요 보도: {', '.join(f'{s[0]}({s[1]}건)' for s in top_sources)}.")
+        if articles[0].get("why_it_matters"):
+            lines.append(f"<b>[최우선 기사 시사점]</b> {articles[0]['why_it_matters']}")
+        if articles[0].get("suggested_action"):
+            lines.append(f"<b>[권장 액션]</b> {articles[0]['suggested_action']}")
+
+        st.markdown(f"""<div style="background:#fff; border:1px solid #e1e4e8; border-left:4px solid #1a73e8; border-radius:4px; padding:16px; margin-bottom:16px;">
+<div style="font-size:0.84rem; line-height:1.8; color:#333;">{'<br>'.join(lines)}</div>
+</div>""", unsafe_allow_html=True)
+
+    # Top 5 Priority News - Card Style (참고 이미지 기반)
+    st.markdown('<div class="section-title">실시간 분석 인사이트</div>', unsafe_allow_html=True)
+    if articles:
+        cols = st.columns(2)
+        for rank, art in enumerate(articles[:4], 1):
+            with cols[(rank-1) % 2]:
+                opp = art.get("opportunity_type", "other")
+                label_map = {"sales_opportunity":"영업 기회","lead_generation":"신규 리드","customer_signal":"고객 신호","proposal_evidence":"규제/정책","competitive_intelligence":"경쟁사","competitor_signal":"경쟁사","market_trend":"기술 트렌드","security_risk":"보안 리스크","cloud_migration":"클라우드","genai_opportunity":"GenAI"}
+                type_label = label_map.get(opp, "기타")
+                score = art.get("final_score_100", 0)
+                source = art.get("source_name", "")
+                title = art.get("title", "")
+                reasoning = art.get("summary_ko", art.get("snippet","")[:150])
+                action = art.get("suggested_action", "")
+
+                st.markdown(f"""<div style="border:1px solid #e1e4e8; border-radius:8px; padding:16px; margin-bottom:12px; background:#fff;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+<div><span style="background:#e8f0fe; color:#1a73e8; padding:2px 8px; border-radius:3px; font-size:0.75rem; font-weight:600;">{source}</span>
+<span style="background:#f0f0f0; color:#333; padding:2px 8px; border-radius:3px; font-size:0.75rem; margin-left:4px;">{type_label}</span></div>
+<div style="text-align:right;"><span style="font-size:0.65rem; color:#666; text-transform:uppercase;">LEAD SCORE</span><br>
+<span style="font-size:1.6rem; font-weight:800; color:#1a73e8;">{score}</span></div>
+</div>
+<div style="font-size:0.95rem; font-weight:600; margin-bottom:8px; line-height:1.4;">"{title}"</div>
+<div style="background:#f8f9fa; border-radius:4px; padding:10px; margin-bottom:8px;">
+<div style="font-size:0.7rem; font-weight:600; color:#666; margin-bottom:4px;">AI 제안 논리 (REASONING)</div>
+<div style="font-size:0.82rem; color:#333; line-height:1.5;">{reasoning}</div>
+</div>
+<div style="display:flex; justify-content:space-between; font-size:0.75rem; color:#666;">
+<a href="{art.get('url','#')}" target="_blank" style="color:#1a73e8; text-decoration:none;">원문 기사</a>
+<span>감성: {art.get('sentiment','neutral')} | 매칭: {art.get('role_keyword_match_score',0):.2f}</span>
+</div>
+</div>""", unsafe_allow_html=True)
+
+    # Charts
+    st.markdown('<div class="section-title">TRENDS / SENTIMENT / SOURCE REACTION</div>', unsafe_allow_html=True)
+    t1, t2, t3 = st.columns(3)
+    with t1:
+        if trends:
+            tdf = pd.DataFrame(trends[:8])
+            if "trend_keyword" in tdf.columns:
+                fig = px.bar(tdf, x="trend_score", y="trend_keyword", orientation="h", title="Trend Keywords")
+                fig.update_layout(height=250, margin=dict(l=0,r=0,t=30,b=0), showlegend=False)
+                st.plotly_chart(fig, use_container_width=True)
+    with t2:
+        if sentiment_ov:
+            fig = go.Figure(go.Indicator(mode="gauge+number", value=sentiment_ov.get("sentiment_index",0), title={"text":f"Sentiment ({sentiment_ov.get('label','')})"},
+                gauge={"axis":{"range":[-1,1]},"bar":{"color":"#0969da"},"steps":[{"range":[-1,-0.25],"color":"#fee2e2"},{"range":[-0.25,0.25],"color":"#f3f4f6"},{"range":[0.25,1],"color":"#dcfce7"}]}))
+            fig.update_layout(height=250, margin=dict(l=20,r=20,t=40,b=0))
+            st.plotly_chart(fig, use_container_width=True)
+    with t3:
+        if source_rx:
+            rx_df = pd.DataFrame(source_rx)
+            if "source_name" in rx_df.columns and "source_reaction_score" in rx_df.columns:
+                # trend_analyzer returns 'label' not 'reaction_label'
+                color_col = "reaction_label" if "reaction_label" in rx_df.columns else "label"
+                fig = px.bar(rx_df, x="source_reaction_score", y="source_name", orientation="h", color=color_col,
+                    color_discrete_map={"HOT":"#dc2626","HOT RISK":"#7f1d1d","WARM":"#ea580c","COLD":"#2563eb"}, title="Source Reaction")
+                fig.update_layout(height=250, margin=dict(l=0,r=0,t=30,b=0))
+                st.plotly_chart(fig, use_container_width=True)
+
+    # ─── 4. DOCUMENT EDITOR (목적별 초안 생성) ───
+    st.markdown('<div class="section-title">DOCUMENT EDITOR</div>', unsafe_allow_html=True)
+
+    # 목적별 초안 설명
+    purpose_id = st.session_state["purpose_id"]
+    purpose_draft_info = {
+        "lead_generation": {"title": "콜드 메일 초안", "desc": "투자 유치/사업 확장 기사를 근거로 한 아웃바운드 메일 초안 생성", "icon": "OUTBOUND MAIL"},
+        "proposal_support": {"title": "제안서 섹션 초안", "desc": "규제 완화/시장 변화 기사를 근거로 한 도입 배경 및 명분 섹션 초안 생성", "icon": "PROPOSAL DRAFT"},
+        "competitive_intelligence": {"title": "경쟁 분석 보고서", "desc": "경쟁사 수주/파트너십 기사를 기반으로 한 경영진 보고용 경쟁 분석 초안", "icon": "COMPETITIVE REPORT"},
+        "custom_search": {"title": "종합 브리핑", "desc": "검색 키워드 기반 종합 분석 브리핑 초안", "icon": "BRIEFING"},
+    }
+    draft_info = purpose_draft_info.get(purpose_id, purpose_draft_info["custom_search"])
+
+    st.markdown(f"""<div style="background:#f0f7ff; border:1px solid #b8d4f0; border-radius:6px; padding:12px 16px; margin-bottom:12px;">
+<span style="background:#1a73e8; color:#fff; padding:2px 8px; border-radius:3px; font-size:0.7rem; font-weight:600;">{draft_info['icon']}</span>
+<span style="font-size:0.85rem; margin-left:8px; color:#333;">{draft_info['desc']}</span>
+</div>""", unsafe_allow_html=True)
+
+    ed_left, ed_right = st.columns(2)
+
+    with ed_left:
+        st.markdown(f"""<div style="background:#fff; border:1px solid #e1e4e8; border-radius:6px; padding:16px;">
+<div style="font-size:0.75rem; font-weight:600; color:#666; margin-bottom:8px; text-transform:uppercase;">참조 자산 (V1) - 관련 기사 원문</div>
+</div>""", unsafe_allow_html=True)
+        ref_text = "\n\n---\n\n".join([f"[{a.get('source_name','')}] {a.get('title','')}\n{a.get('snippet','')[:250]}" for a in articles[:5]])
+        st.text_area("ref", ref_text, height=300, key="ref_v1", label_visibility="collapsed")
+
+    with ed_right:
+        st.markdown(f"""<div style="background:#f6fef9; border:1px solid #34a853; border-radius:6px; padding:16px;">
+<div style="font-size:0.75rem; font-weight:600; color:#1e7e34; margin-bottom:8px; text-transform:uppercase;">AI 생성 초안 (V+) - {draft_info['title']}</div>
+</div>""", unsafe_allow_html=True)
+
+        if "draft_text" not in st.session_state:
+            st.session_state["draft_text"] = ""
+
+        if st.button(f"{draft_info['title']} 생성", type="primary", use_container_width=True):
+            with st.spinner("Bedrock 초안 작성 중..."):
+                # 목적별 프롬프트 분기
+                from services.bedrock_client import invoke_model
+                top_art = articles[0] if articles else {}
+                if purpose_id == "lead_generation":
+                    prompt = f"""메가존클라우드 영업 담당자가 보낼 콜드 메일 초안을 작성하세요.
+
+근거 기사: {top_art.get('title','')}
+기사 요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+
+형식:
+- 제목: [고객사명] 투자 유치 축하 및 클라우드 인프라 확장 제안
+- 본문: 축하 인사 → 기사 언급 → 인프라 확장 시 MZC가 도울 수 있는 점 → 미팅 제안
+- 톤: 전문적이면서 친근하게
+- 한국어로 작성"""
+                elif purpose_id == "proposal_support":
+                    prompt = f"""메가존클라우드 프리세일즈가 제안서에 넣을 '도입 배경 및 명분' 섹션 초안을 작성하세요.
+
+근거 기사: {top_art.get('title','')}
+기사 요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+
+형식:
+- 섹션 제목: 도입 배경
+- 시장 환경 변화 (기사 근거)
+- 규제/정책 변화가 고객에게 미치는 영향
+- 클라우드 도입의 필요성과 기대효과
+- MZC 솔루션 연결 포인트
+- 한국어로 작성"""
+                elif purpose_id == "competitive_intelligence":
+                    prompt = f"""경영진에게 보고할 경쟁사 동향 분석 보고서 초안을 작성하세요.
+
+근거 기사: {top_art.get('title','')}
+기사 요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+
+형식:
+- 경쟁사 동향 요약
+- MZC에 미치는 영향
+- 차별화 포인트
+- Win-back 또는 방어 전략 제안
+- 한국어로 작성"""
+                else:
+                    prompt = f"""아래 기사를 기반으로 종합 브리핑 초안을 작성하세요.
+기사: {top_art.get('title','')}
+요약: {top_art.get('summary_ko', top_art.get('snippet','')[:200])}
+한국어로 작성."""
+
+                try:
+                    draft = invoke_model(prompt, max_tokens=2000)
+                except Exception as e:
+                    draft = f"초안 생성 실패: {e}"
+
+                st.session_state["draft_text"] = draft
+                stats = {"total_collected":len(articles),"after_dedup":len(articles),"analyzed":len(articles),"high_importance":sum(1 for a in articles if a.get("importance",0)>=8),"avg_purpose_fit":0.7}
+                st.session_state["briefing_html"] = render_briefing_html(st.session_state["selected_role"], st.session_state["selected_purpose"], draft, articles[:10], stats)
+                st.rerun()
+
+        draft = st.text_area("draft", st.session_state["draft_text"], height=300, key="draft_v_plus", label_visibility="collapsed")
+        st.session_state["draft_text"] = draft
+
+    # Action toolbar
+    act1, act2, act3, act4, act5 = st.columns(5)
+    with act1:
+        if "briefing_html" in st.session_state:
+            st.download_button("HTML 다운로드", st.session_state["briefing_html"], "briefing.html", "text/html", use_container_width=True)
+    with act2:
+        if st.button("Google Docs 내보내기", use_container_width=True):
+            st.info("Google Docs export는 운영 연동 대상입니다. 현재는 HTML 다운로드를 제공합니다.")
+    with act3:
+        if "briefing_html" in st.session_state:
+            st.download_button("DOCX", f"<html><head><meta charset='utf-8'></head><body>{st.session_state['briefing_html']}</body></html>".encode(), "briefing.doc", "application/msword", use_container_width=True)
+    with act4:
+        if st.button("아키텍처 문서 생성", use_container_width=True):
+            with st.spinner("생성 중..."):
+                from agents.architecture_doc import generate_architecture_doc
+                st.session_state["arch_html"] = generate_architecture_doc()
+                st.rerun()
+    with act5:
+        pass  # Slack alert button below
+
+    if "arch_html" in st.session_state:
+        with st.expander("아키텍처 문서 미리보기"):
+            st.components.v1.html(st.session_state["arch_html"], height=400, scrolling=True)
+            st.download_button("아키텍처 HTML 다운로드", st.session_state["arch_html"], "architecture.html", "text/html")
+
+    # ─── 5. SLACK ALERT SETTINGS ───
+    st.markdown('<div class="section-title">ALERT SETTINGS</div>', unsafe_allow_html=True)
+    with st.expander("Slack Alert 설정"):
+        al1, al2 = st.columns(2)
+        with al1:
+            st.markdown("**정기 요약 보고**")
+            sched_enabled = st.checkbox("활성화", key="sched_on", value=st.session_state["alert_settings"].get("scheduled", False))
+            sched_time = st.time_input("발송 시각", value=datetime.strptime("08:00", "%H:%M").time(), key="sched_time")
+        with al2:
+            st.markdown("**핵심 이슈 실시간 알림**")
+            rt_enabled = st.checkbox("활성화", key="rt_on", value=st.session_state["alert_settings"].get("realtime", False))
+            threshold = st.slider("임팩트 스코어 임계치", 50, 100, 85, key="rt_threshold")
+            alert_count = sum(1 for a in articles if a.get("final_score_100",0) >= threshold)
+            st.caption(f"현재 조건에서 알림 대상: {alert_count}건")
+
+        st.markdown("**모니터링 기간**")
+        mon_type = st.radio("유형", ["상시 모니터링", "프로젝트 기반"], horizontal=True, key="mon_type")
+        if mon_type == "프로젝트 기반":
+            mon_dates = st.date_input("기간", value=(datetime.now().date(), datetime.now().date()), key="mon_dates")
+
+        st.caption("연결: MegazoneCloud Slack Workspace / #sales-radar-alerts")
+
+        if st.button("알림 설정 저장"):
+            st.session_state["alert_settings"] = {
+                "scheduled": sched_enabled, "schedule_time": str(sched_time),
+                "realtime": rt_enabled, "threshold": threshold,
+                "monitoring": mon_type,
+            }
+            st.success("알림 설정이 저장되었습니다.")
+
+    # ─── Footer ───
+    st.markdown("---")
+    if st.button("처음으로"):
+        for k in list(st.session_state.keys()):
+            del st.session_state[k]
+        st.rerun()
