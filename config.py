@@ -14,7 +14,7 @@ load_dotenv()
 # ─── AWS 설정 ───
 # 이유: 환경변수로 분리해 코드에 credential 하드코딩 방지 (보안 원칙)
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
-BEDROCK_MODEL_ID = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-6")
+BEDROCK_MODEL_ID = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-haiku-4-5-20251001-v1:0")
 BEDROCK_EMBEDDING_MODEL_ID = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0")
 S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME", "mzc-sales-radar-bucket")
 DYNAMODB_TABLE_NAME = os.getenv("DYNAMODB_TABLE_NAME", "mzc-sales-radar")

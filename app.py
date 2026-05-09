@@ -122,7 +122,13 @@ if st.session_state["phase"] == "loading":
     progress.progress(0.5)
 
     progress.progress(0.6, "Bedrock 분석 중...")
-    analyzed = analyze_articles(filtered, st.session_state["selected_role"], purpose_id)
+    # 상위 20개만 LLM 분석 (속도 최적화: 20개 × Haiku = ~25초)
+    articles_to_analyze = filtered[:20]
+    analyzed = analyze_articles(articles_to_analyze, st.session_state["selected_role"], purpose_id)
+    # 나머지는 분석 없이 기본값으로 추가
+    for art in filtered[20:]:
+        art.update({"importance": 3, "sentiment": "neutral", "opportunity_type": "other", "relevance_to_mzc": 0.3, "purpose_fit": 0.3, "summary_ko": art.get("snippet","")[:100], "why_it_matters": "", "suggested_action": "", "target_role": "both"})
+        analyzed.append(art)
     progress.progress(0.7)
 
     progress.progress(0.8, "스코어링 중...")

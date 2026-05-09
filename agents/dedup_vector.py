@@ -69,25 +69,20 @@ def dedup_and_vectorize(normalized_articles: list[dict]) -> dict:
             continue
         
         # ─── 4단계: Embedding 기반 의미적 중복 제거 ───
-        # 이유: 속도 우선 모드에서는 skip. URL+title 중복 제거만으로 충분.
-        # 환경변수 USE_EMBEDDING_DEDUP=true 설정 시에만 실행.
-        import os
-        if os.getenv("USE_EMBEDDING_DEDUP", "false").lower() == "true":
-            try:
-                text_for_embedding = f"{article['title']} {article['snippet']}"
-                embedding = get_embedding(text_for_embedding)
-                
-                if _vector_store.is_duplicate(embedding):
-                    duplicate_count += 1
-                    continue
-                
-                _vector_store.add_vector(article["article_id"], embedding)
-                article["embedding"] = embedding
-                vectorized_count += 1
-            except Exception as e:
-                logger.warning(f"Embedding 실패, 기사 유지: {e}")
-                vectorized_count += 1
-        else:
+        # 임베딩 ON: 벡터 유사도 기반 중복 제거 + 스코어링용 벡터 저장
+        try:
+            text_for_embedding = f"{article['title']} {article['snippet']}"
+            embedding = get_embedding(text_for_embedding)
+            
+            if _vector_store.is_duplicate(embedding):
+                duplicate_count += 1
+                continue
+            
+            _vector_store.add_vector(article["article_id"], embedding)
+            article["embedding"] = embedding
+            vectorized_count += 1
+        except Exception as e:
+            logger.warning(f"Embedding 실패, 기사 유지: {e}")
             vectorized_count += 1
         
         filtered.append(article)
