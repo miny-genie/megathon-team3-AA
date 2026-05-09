@@ -126,18 +126,26 @@ if st.session_state["phase"] == "loading":
     progress.progress(0.7)
 
     progress.progress(0.8, "스코어링 중...")
+    # 이유: Embedding 호출을 최소화. user intent 1번만 호출하고 기사는 있는 것만 사용.
     user_intent = build_user_intent_text(role_key, purpose_id, kws, [])
     try:
         user_vector = np.array(get_embedding(user_intent), dtype=np.float32)
     except Exception:
-        user_vector = np.zeros(1024, dtype=np.float32)
+        user_vector = None
 
     opp_counts = Counter(a.get("opportunity_type", "other") for a in analyzed)
     max_cluster = max(opp_counts.values()) if opp_counts else 1
 
     for art in analyzed:
-        art_vector = np.array(art["embedding"], dtype=np.float32) if "embedding" in art else np.zeros_like(user_vector)
-        rk = calculate_role_keyword_match_score(user_vector, art_vector)
+        # role_keyword_match: embedding 있으면 cosine, 없으면 키워드 겹침 비율
+        if user_vector is not None and "embedding" in art and art["embedding"]:
+            art_vector = np.array(art["embedding"], dtype=np.float32)
+            rk = calculate_role_keyword_match_score(user_vector, art_vector)
+        else:
+            # fallback: 키워드 포함 비율로 간이 매칭
+            title_lower = art.get("title", "").lower()
+            match_count = sum(1 for k in kws if k.lower() in title_lower)
+            rk = min(match_count / max(len(kws), 1), 1.0)
         art["role_keyword_match_score"] = rk
         art["recency_score"] = calculate_recency_score(art.get("published_at", ""))
         art["hotness_score"] = calculate_hotness_score(opp_counts.get(art.get("opportunity_type","other"),1), max_cluster)
